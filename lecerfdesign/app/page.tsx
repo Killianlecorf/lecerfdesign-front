@@ -1,12 +1,14 @@
-import Link from "next/link"
+import Header from "@/Components/Header/Header"
+import Image from 'next/image';
+import imgHome from '../src/Assets/Img/photo_home.svg'
 
-
-export default function Home() {
+export default function Page() {
   return (
-    <main>
-      <Link href='/home'>
-        <h1>page d'accueil</h1>
-      </Link>
+    <main className="Home">
+        <Header />
+        <div className="backgroundImage">
+          <Image src={imgHome} alt="photo home"/>
+        </div>
     </main>
   )
 }
