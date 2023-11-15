@@ -7,7 +7,7 @@
         height: 80vh;
         background-image: url('/Assets/Img/photo_home.svg');
         background-repeat: no-repeat;
-        padding-top: 20vh;
+        padding-top: 10vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -20,7 +20,7 @@
             justify-content: center;
             width: 100%;
             height: auto;
-            margin-bottom: 5%;
+            margin-bottom: 2%;
 
             .titleHome{
                 width: 100%;
@@ -72,6 +72,35 @@
         }
 
     }
+
+    .SpeIconContent{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+
+        .SpeIconSize{
+            width: 75%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+
+            .FirstIcon{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .SecondIcon{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
 }
 
 @media (max-width: 950px){
@@ -80,7 +109,7 @@
         height: auto;
     
         .backgroundImage {
-            width: 100vw;
+            width: 100%;
             height: 80vh;
             background-image: url('/Assets/Img/photo_home.svg');
             background-repeat: no-repeat;
@@ -153,4 +182,37 @@
     
         }
     }
+
+    .Home .SpeIconContent{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 150px;
+    
+        .SpeIconSize{
+            width: 75%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+    
+            .FirstIcon{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+    
+            .SecondIcon{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
 }
+

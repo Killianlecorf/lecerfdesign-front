@@ -1,13 +1,23 @@
-import React from 'react';
+"use client";
+import React, { useState } from 'react';
 import './_Header.scss'
 import BarHeader from '../../../public/Assets/Img/bar_header.svg';
 import logo from '../../../public/Assets/Img/logo_vert.svg';
 import Image from 'next/image';
 import NavButton from '../UI-kit/NavButton/NavButton';
-import Button from '../UI-kit/Button/Button';
 import { RxHamburgerMenu } from "react-icons/rx";
+import ModalNavigation from '../ModalNavigation/ModalNavigation';
 
 const Header = () => {
+
+    const [isOpenNavModal, setIsOpenNavModal] = useState<Boolean>(false)
+
+    const changeOpenModal = ()=> {
+        setIsOpenNavModal(!isOpenNavModal)
+        console.log(isOpenNavModal);
+    }
+
+
     return (
         <div className='Header'>
             <div className="ButtonHeader">
@@ -28,14 +38,14 @@ const Header = () => {
                         <NavButton ButtonContent='Vidéos'/>
                     </div>
                     <div className="BurgerModaleHeader">
-                        <RxHamburgerMenu />
+                        <div onClick={changeOpenModal}>
+                            <RxHamburgerMenu className={`burger ${isOpenNavModal ? 'active' : ''}`} />
+                        </div>
                     </div>
-                </div>
-                <div className="ButtonContact">
-                    <Button ButtonContent='Contact' />
                 </div>
             </div>
             <Image src={BarHeader} alt="Header" />
+            <ModalNavigation />
         </div>
     );
 };

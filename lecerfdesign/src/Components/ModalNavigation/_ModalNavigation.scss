@@ -1,0 +1,15 @@
+.ModalNavigation{
+    display: none;
+}
+
+@media (max-width: 950px) {
+
+    .ModalNavigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: var(--White-color);
+        width: 75%;
+        height: 100%;
+    }
+}
