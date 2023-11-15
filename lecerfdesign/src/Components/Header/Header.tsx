@@ -5,6 +5,7 @@ import logo from '../../../public/Assets/Img/logo_vert.svg';
 import Image from 'next/image';
 import NavButton from '../UI-kit/NavButton/NavButton';
 import Button from '../UI-kit/Button/Button';
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Header = () => {
     return (
@@ -25,6 +26,9 @@ const Header = () => {
                     </div>
                     <div className="buttonNavContent">
                         <NavButton ButtonContent='Vidéos'/>
+                    </div>
+                    <div className="BurgerModaleHeader">
+                        <RxHamburgerMenu />
                     </div>
                 </div>
                 <div className="ButtonContact">
