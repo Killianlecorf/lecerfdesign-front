@@ -1,12 +1,156 @@
-.Home{
+.Home {
     width: 100%;
     height: auto;
 
-    .backgroundImage{
-        position: absolute;
-        top: 20vh;
-        left: 0;
+    .backgroundImage {
         width: 100%;
-        height: 60vh;
+        height: 80vh;
+        background-image: url('/Assets/Img/photo_home.svg');
+        background-repeat: no-repeat;
+        padding-top: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .titleContentHome{
+            color: var(--White-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            margin-bottom: 5%;
+
+            .titleHome{
+                width: 100%;
+                height: auto;
+                display: flex;
+                margin: 0 auto;
+
+                p{
+                    font-size: 36px;
+                    padding: 0 auto;
+                    margin: 0 auto;
+                    
+
+                    div{
+                        color: var(--main-color);
+                    }
+                }
+
+                .pNameHome{
+                    font-size: 36px;
+                    padding: 0 auto;
+                    margin: 0 auto;
+                    color: var(--main-color);
+                }
+            }
+
+            .descriptionContentHome{
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                margin: 0 auto;
+
+                h2{
+                    font-family: var(--Light-font);
+                    font-size: 21px;
+                }
+            }
+        }
+
+        .ButtonContentHome{
+            color: var(--White-color);
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            width: 100%;
+            height: 25%;
+        }
+
+    }
+}
+
+@media (max-width: 950px){
+    .Home {
+        width: 100%;
+        height: auto;
+    
+        .backgroundImage {
+            width: 100vw;
+            height: 80vh;
+            background-image: url('/Assets/Img/photo_home.svg');
+            background-repeat: no-repeat;
+            padding-top: 20vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    
+            .titleContentHome{
+                color: var(--White-color);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                margin-bottom: 5%;
+    
+                .titleHome{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    margin: 0 auto;
+    
+                    p{
+                        font-size: 36px;
+                        padding: 0 auto;
+                        margin: 0 auto;
+                        
+    
+                        div{
+                            color: var(--main-color);
+                        }
+                    }
+    
+                    .pNameHome{
+                        font-size: 36px;
+                        padding: 0 auto;
+                        margin: 0 auto;
+                        color: var(--main-color);
+                    }
+                }
+    
+                .descriptionContentHome{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    margin: 0 auto;
+    
+                    h2{
+                        font-family: var(--Light-font);
+                        font-size: 21px;
+                    }
+                }
+            }
+    
+            .ButtonContentHome{
+                color: var(--White-color);
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                width: 100%;
+                height: 25%;
+            }
+    
+        }
     }
 }
