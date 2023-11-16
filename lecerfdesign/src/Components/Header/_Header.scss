@@ -114,6 +114,7 @@
                         width: 50px;
                         height: auto;
                         transition: .2s ease;
+                        cursor: pointer;
 
                         &.active {
                             transform: rotate(+90deg);

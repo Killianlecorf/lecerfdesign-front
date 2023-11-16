@@ -10,7 +10,7 @@ import ModalNavigation from '../ModalNavigation/ModalNavigation';
 
 const Header = () => {
 
-    const [isOpenNavModal, setIsOpenNavModal] = useState<Boolean>(false)
+    const [isOpenNavModal, setIsOpenNavModal] = useState<boolean>(false)
 
     const changeOpenModal = ()=> {
         setIsOpenNavModal(!isOpenNavModal)
@@ -45,7 +45,7 @@ const Header = () => {
                 </div>
             </div>
             <Image src={BarHeader} alt="Header" />
-            <ModalNavigation />
+            <ModalNavigation isOpen={isOpenNavModal} setIsOpen={setIsOpenNavModal}/>
         </div>
     );
 };
