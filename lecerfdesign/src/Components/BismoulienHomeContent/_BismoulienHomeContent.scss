@@ -1,0 +1,25 @@
+.BismoulienHomeContent{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+
+    .ImageBismoulienContent{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 570px;
+            height: 415px;
+            box-shadow: inset 10px 10px 10px 10px rgb(0, 0, 0);
+            border-radius: 0 60px 0 60px;
+        }
+    }
+
+    .TextBismoulienContent{
+        width: 50%;
+        height: 100%;
+    }
+}
