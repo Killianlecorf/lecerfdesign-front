@@ -7,6 +7,7 @@ import Video from "../public/Assets/Img/montage_video_vert.svg";
 import Photo from "../public/Assets/Img/photo_video_vert.svg";
 import Design from "../public/Assets/Img/design_web_vert.svg";
 import SkillCarrousselle from "@/Components/SkillCarrouselle/SkillCarrousselle";
+import BismoulienHomeContent from "@/Components/BismoulienHomeContent/BismoulienHomeContent";
 
 export default function Page() {
   return (
@@ -22,7 +23,7 @@ export default function Page() {
                 </div>
             </div>
             <div className="ButtonContentHome">
-                <Button ButtonClassName="Button" ButtonStyle={{fontSize: "16px", color: "var(--White-color)"}} ButtonContent="Contacter-nous" />
+                <Button ButtonClassName="BigButtonArrow" ButtonStyle={{fontSize: "16px", color: "var(--White-color)"}} ButtonContent="Contacter-nous" />
             </div>
         </div>
         <DescriptionLogo />
@@ -39,6 +40,7 @@ export default function Page() {
             </div>
         </div>
         <SkillCarrousselle />
+        {/* <BismoulienHomeContent /> */}
     </main>
   )
 }
