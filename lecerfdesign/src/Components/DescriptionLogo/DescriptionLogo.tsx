@@ -16,4 +16,4 @@ const DescriptionLogo = () => {
     );
 };
 
-export default DescriptionLogo;
+export default DescriptionLogo; 
