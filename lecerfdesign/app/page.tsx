@@ -6,6 +6,7 @@ import graphisme from "../public/Assets/Img/graphisme_vert.svg";
 import Video from "../public/Assets/Img/montage_video_vert.svg";
 import Photo from "../public/Assets/Img/photo_video_vert.svg";
 import Design from "../public/Assets/Img/design_web_vert.svg";
+import SkillCarrousselle from "@/Components/SkillCarrouselle/SkillCarrousselle";
 
 export default function Page() {
   return (
@@ -14,14 +15,14 @@ export default function Page() {
         <div className="backgroundImage">
             <div className="titleContentHome">
                 <div className="titleHome">
-                    <p>Bienvenue chez <span style={{color: 'var(--Main-color)'}}>Lecerf Design</span></p>
+                    <h1>Bienvenue chez <span style={{color: 'var(--Main-color)'}}>Lecerf Design</span></h1>
                 </div>
                 <div className="descriptionContentHome">
                     <h2>PRINT, DESIGN, COMMUNICATION</h2>
                 </div>
             </div>
             <div className="ButtonContentHome">
-                <Button ButtonStyle={{fontSize: "16px", color: "var(--White-color)"}} ButtonContent="Contacter-nous" />
+                <Button ButtonClassName="Button" ButtonStyle={{fontSize: "16px", color: "var(--White-color)"}} ButtonContent="Contacter-nous" />
             </div>
         </div>
         <DescriptionLogo />
@@ -37,6 +38,7 @@ export default function Page() {
                 </div>
             </div>
         </div>
+        <SkillCarrousselle />
     </main>
   )
 }

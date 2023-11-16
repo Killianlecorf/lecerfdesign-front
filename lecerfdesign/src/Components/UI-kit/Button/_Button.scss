@@ -18,4 +18,61 @@
         height: 51px;
         border-radius: 0px 15px 0px 15px ;
     }
+
+    p{
+        margin: 0 auto;
+    }
+
+    span{
+        display: none;
+    }
+}
+
+.ButtonArrow{
+    background-color: var(--Main-color);
+    color: var(--White-color);
+    border: none;
+    cursor: pointer;
+    font-family: var(--Bold-regular-font);
+    width: 160px;
+    height: 51px;
+    border-radius: 0px 15px 0px 15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span{
+        position: absolute;
+        display: flex;
+        padding-left: 90px;
+        transition:  .2s ease;
+        opacity: 0;
+    }
+
+    p{
+        margin: 0 auto;
+        transition: .2s ease;
+    }
+
+    &:hover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .2s ease;
+
+        span{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 100px;
+            opacity: 1;
+            transition: .2s ease;
+            margin-left: 5px;
+        }
+
+        p{
+            padding-right: 15px;
+            transition: .2s ease;
+        }
+    }
 }

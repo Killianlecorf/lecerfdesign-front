@@ -1,0 +1,82 @@
+.SkillCarrousselle{
+    width: 100%;
+    height: 40%;
+    margin-bottom: 10vh;
+
+    .SkillCardContentArrow{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        
+        .ArrowSkillCarrousselleContent{
+            width: 5%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            svg{
+                width: 50px;
+                height: 50px;
+                cursor: pointer;
+            }
+        }
+    
+        .SkillCarrousselleContent{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    .bulletPointSkillCarrousselle{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span{
+            margin-left: 15px;
+
+            svg{
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px){
+    .SkillCarrousselle{
+        width: 100%;
+        height: 40%;
+        margin-bottom: 10vh;
+    
+        .SkillCardContentArrow{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            
+            .ArrowSkillCarrousselleContent{
+                display: none;
+            }
+        
+            .SkillCarrousselleContent{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    
+        .bulletPointSkillCarrousselle{
+            display: none;
+        }
+    }
+}
