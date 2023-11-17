@@ -1,0 +1,18 @@
+.NavButton{
+    background-color: var(--Black-Color);
+    border: none;
+    cursor: pointer;
+    font-family: var(--Bold-regular-font);
+
+    &:hover{
+        background-color: var(--Black-Color);
+        border: none;
+        cursor: pointer;
+        font-family: var(--Bold-regular-font);
+        color: var(--main-color);
+    }
+}
+
+button{
+    font-size: 19px;
+}

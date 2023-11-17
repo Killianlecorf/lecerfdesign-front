@@ -1,0 +1,21 @@
+.Button{
+    background-color: var(--Main-color);
+    color: var(--White-color);
+    border: none;
+    cursor: pointer;
+    font-family: var(--Bold-regular-font);
+    width: 160px;
+    height: 51px;
+    border-radius: 0px 15px 0px 15px ;
+
+    &:hover{
+        background-color: rgba(0, 0, 0, 0);
+        color: var(--Blacks-color);
+        border: 2px solid var(--Main-color);
+        cursor: pointer;
+        font-family: var(--Bold-regular-font);
+        width: 160px;
+        height: 51px;
+        border-radius: 0px 15px 0px 15px ;
+    }
+}

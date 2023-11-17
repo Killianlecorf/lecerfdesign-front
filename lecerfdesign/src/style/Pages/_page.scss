@@ -1,0 +1,218 @@
+.Home {
+    width: 100%;
+    height: auto;
+
+    .backgroundImage {
+        width: 100%;
+        height: 80vh;
+        background-image: url('/Assets/Img/photo_home.svg');
+        background-repeat: no-repeat;
+        padding-top: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .titleContentHome{
+            color: var(--White-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            margin-bottom: 2%;
+
+            .titleHome{
+                width: 100%;
+                height: auto;
+                display: flex;
+                margin: 0 auto;
+
+                p{
+                    font-size: 36px;
+                    padding: 0 auto;
+                    margin: 0 auto;
+                    
+
+                    div{
+                        color: var(--main-color);
+                    }
+                }
+
+                .pNameHome{
+                    font-size: 36px;
+                    padding: 0 auto;
+                    margin: 0 auto;
+                    color: var(--main-color);
+                }
+            }
+
+            .descriptionContentHome{
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                margin: 0 auto;
+
+                h2{
+                    font-family: var(--Light-font);
+                    font-size: 21px;
+                }
+            }
+        }
+
+        .ButtonContentHome{
+            color: var(--White-color);
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            width: 100%;
+            height: 25%;
+        }
+
+    }
+
+    .SpeIconContent{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+
+        .SpeIconSize{
+            width: 75%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+
+            .FirstIcon{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .SecondIcon{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px){
+    .Home {
+        width: 100%;
+        height: auto;
+    
+        .backgroundImage {
+            width: 100%;
+            height: 80vh;
+            background-image: url('/Assets/Img/photo_home.svg');
+            background-repeat: no-repeat;
+            padding-top: 20vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    
+            .titleContentHome{
+                color: var(--White-color);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                margin-bottom: 5%;
+    
+                .titleHome{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    margin: 0 auto;
+    
+                    p{
+                        font-size: 36px;
+                        padding: 0 auto;
+                        margin: 0 auto;
+                        
+    
+                        div{
+                            color: var(--main-color);
+                        }
+                    }
+    
+                    .pNameHome{
+                        font-size: 36px;
+                        padding: 0 auto;
+                        margin: 0 auto;
+                        color: var(--main-color);
+                    }
+                }
+    
+                .descriptionContentHome{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    margin: 0 auto;
+    
+                    h2{
+                        font-family: var(--Light-font);
+                        font-size: 21px;
+                    }
+                }
+            }
+    
+            .ButtonContentHome{
+                color: var(--White-color);
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                width: 100%;
+                height: 25%;
+            }
+    
+        }
+    }
+
+    .Home .SpeIconContent{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 150px;
+    
+        .SpeIconSize{
+            width: 75%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+    
+            .FirstIcon{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+    
+            .SecondIcon{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+}
+

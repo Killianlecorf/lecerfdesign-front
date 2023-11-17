@@ -1,12 +1,10 @@
 import React from 'react';
-import Link from "next/link"
+import NavButton from "@/Components/UI-kit/NavButton/NavButton";
 
-export default function Page() {
+export default function Home() {
     return (
-      <main>
-        <Link href='/'>
-          <p>Hello world !</p>
-        </Link>
-      </main>
-    )
-  }
+        <main className="Home">
+            <NavButton ButtonContent="Bouton" />
+        </main>
+    );
+}

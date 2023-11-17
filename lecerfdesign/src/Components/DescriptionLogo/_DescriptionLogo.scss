@@ -1,0 +1,63 @@
+.DescriptionLogo{
+    width: 100%;
+    height: 15vh;
+    margin-bottom: 150px;
+    display: flex;
+
+    .logoDesignContent{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 5%;
+    }
+
+    .sloganLogoHome{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 950px){
+    .DescriptionLogo{
+        width: 100%;
+        height: 15vh;
+        margin-bottom: 150px;
+        display: block;
+    
+        .logoDesignContent{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+
+            img{
+                width: 75%;
+                height: auto;
+            }
+        }
+    
+        .sloganLogoHome{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+
+            p{
+                width: 75%;
+                height: auto;
+            }
+        }
+    }
+}
