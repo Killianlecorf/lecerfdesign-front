@@ -10,7 +10,7 @@ const DescriptionLogo = () => {
                 <Image src={lecerfLogo} alt='Logo Lecerf Design'/>
             </div>
             <div className="sloganLogoHome">
-                <p>"Donnez vie à votre vision, <span style={{color: "var(--Main-color)"}}>avec des solutions graphiques sur mesure"</span></p>
+                <h2>" Donnez vie à votre vision, <span style={{color: "var(--Main-color)"}}>avec des solutions graphiques sur mesure ! "</span></h2>
             </div>
         </div>
     );
