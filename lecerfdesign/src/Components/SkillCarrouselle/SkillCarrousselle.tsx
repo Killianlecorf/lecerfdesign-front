@@ -21,53 +21,43 @@ const SkillCarrousselle: React.FC = () => {
       SkillLogo: logoWebDesign,
       SkillDescription: 'Skill 2 Description',
     },
-    ,
     {
       SkillImage: skillImageWebDesign,
       SkillLogo: logoWebDesign,
-      SkillDescription: 'Skill 2 Description',
+      SkillDescription: 'Skill 3 Description',
     },
-    ,
     {
       SkillImage: skillImageWebDesign,
       SkillLogo: logoWebDesign,
-      SkillDescription: 'Skill 2 Description',
+      SkillDescription: 'Skill 4 Description',
     }
   ];
 
-  const nextSlide = (): void => {
-    setCurrentSlide((prevSlide) => (prevSlide === items.length - 1 ? 0 : prevSlide + 1));
-  };
+  const slidesToShow = 1;
 
+  const totalSlides = Math.ceil(items.length / slidesToShow);
+
+  const nextSlide = (): void => {
+    setCurrentSlide((prevSlide) => (prevSlide === totalSlides - 1 ? 0 : prevSlide + 1));
+  };
+  
   const prevSlide = (): void => {
-    setCurrentSlide((prevSlide) => (prevSlide === 0 ? items.length - 1 : prevSlide - 1));
+    setCurrentSlide((prevSlide) => (prevSlide === 0 ? totalSlides - 1 : prevSlide - 1));
   };
 
   return (
     <div className="carousel">
       <div className="slider">
-        {items.map((item, index) => (
-          <div
-            key={index}
-            className={`slide ${index === currentSlide ? 'active' : ''}`}
-          >
-            <SkillCard
-                SkillImage={item?.SkillImage || ''}
-                SkillLogo={item?.SkillLogo || ''}
-                SkillDescription={item?.SkillDescription || ''}
-            />
-            <SkillCard
-                SkillImage={item?.SkillImage || ''}
-                SkillLogo={item?.SkillLogo || ''}
-                SkillDescription={item?.SkillDescription || ''}
-            />
-            <SkillCard
-                SkillImage={item?.SkillImage || ''}
-                SkillLogo={item?.SkillLogo || ''}
-                SkillDescription={item?.SkillDescription || ''}
-            />
-          </div>
-        ))}
+      {items
+      .slice(currentSlide * slidesToShow, (currentSlide + 1) * slidesToShow)
+      .map((item, i) => (
+        <SkillCard
+          key={i}
+          SkillImage={item?.SkillImage || ''}
+          SkillLogo={item?.SkillLogo || ''}
+          SkillDescription={item?.SkillDescription || ''}
+        />
+    ))}
       </div>
       <button onClick={prevSlide} className="prevButton">
         Previous
@@ -76,7 +66,7 @@ const SkillCarrousselle: React.FC = () => {
         Next
       </button>
       <div className="indicators">
-        {items.map((_, index) => (
+        {[...Array(totalSlides)].map((_, index) => (
           <span
             key={index}
             className={`indicator ${index === currentSlide ? 'activeIndicator' : ''}`}

@@ -90,7 +90,7 @@
     .slider {
       display: flex;
       transition: transform 0.5s ease-in-out;
-      width: calc(100% * 4); /* Ajustez la largeur en fonction du nombre d'éléments */
+      width: calc(100% * 2); /* Ajustez la largeur en fonction du nombre d'éléments */
     }
   
     .slide {
