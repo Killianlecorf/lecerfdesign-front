@@ -33,7 +33,7 @@ const SkillCarrousselle: React.FC = () => {
     }
   ];
 
-  const slidesToShow = 1;
+  const slidesToShow = 2;
 
   const totalSlides = Math.ceil(items.length / slidesToShow);
 
@@ -45,19 +45,20 @@ const SkillCarrousselle: React.FC = () => {
     setCurrentSlide((prevSlide) => (prevSlide === 0 ? totalSlides - 1 : prevSlide - 1));
   };
 
+  const startIndex = currentSlide * slidesToShow;
+  const endIndex = startIndex + slidesToShow;
+
   return (
     <div className="carousel">
       <div className="slider">
-      {items
-      .slice(currentSlide * slidesToShow, (currentSlide + 1) * slidesToShow)
-      .map((item, i) => (
-        <SkillCard
-          key={i}
-          SkillImage={item?.SkillImage || ''}
-          SkillLogo={item?.SkillLogo || ''}
-          SkillDescription={item?.SkillDescription || ''}
-        />
-    ))}
+        {items.slice(startIndex, endIndex).map((item, i) => (
+          <SkillCard
+            key={i}
+            SkillImage={item?.SkillImage || ''}
+            SkillLogo={item?.SkillLogo || ''}
+            SkillDescription={item?.SkillDescription || ''}
+          />
+        ))}
       </div>
       <button onClick={prevSlide} className="prevButton">
         Previous
