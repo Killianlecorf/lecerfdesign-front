@@ -1,82 +1,145 @@
-.SkillCarrousselle{
-    width: 100%;
-    height: 40%;
-    margin-bottom: 10vh;
+// .SkillCarrousselle{
+//     width: 100%;
+//     height: 40%;
+//     margin-bottom: 10vh;
 
-    .SkillCardContentArrow{
-        display: flex;
-        width: 100%;
-        height: 100%;
-        align-items: center;
-        justify-content: center;
+//     .SkillCardContentArrow{
+//         display: flex;
+//         width: 100%;
+//         height: 100%;
+//         align-items: center;
+//         justify-content: center;
         
-        .ArrowSkillCarrousselleContent{
-            width: 5%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+//         .ArrowSkillCarrousselleContent{
+//             width: 5%;
+//             height: 100%;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
     
-            svg{
-                width: 50px;
-                height: 50px;
-                cursor: pointer;
-            }
-        }
+//             svg{
+//                 width: 50px;
+//                 height: 50px;
+//                 cursor: pointer;
+//             }
+//         }
     
-        .SkillCarrousselleContent{
-            width: 50%;
-            height: 100%;
-            display: flex;
-            justify-content: space-around;
-        }
-    }
+//         .SkillCarrousselleContent{
+//             width: 50%;
+//             height: 100%;
+//             display: flex;
+//             justify-content: space-around;
+//         }
+//     }
 
-    .bulletPointSkillCarrousselle{
-        width: 100%;
-        height: 10vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+//     .bulletPointSkillCarrousselle{
+//         width: 100%;
+//         height: 10vh;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
 
-        span{
-            margin-left: 15px;
+//         span{
+//             margin-left: 15px;
 
-            svg{
-                width: 35px;
-                height: 35px;
-            }
-        }
-    }
-}
+//             svg{
+//                 width: 35px;
+//                 height: 35px;
+//             }
+//         }
+//     }
+// }
 
-@media (max-width: 950px){
-    .SkillCarrousselle{
-        width: 100%;
-        height: 40%;
-        margin-bottom: 10vh;
+// @media (max-width: 950px){
+//     .SkillCarrousselle{
+//         width: 100%;
+//         height: 40%;
+//         margin-bottom: 10vh;
     
-        .SkillCardContentArrow{
-            display: flex;
-            width: 100%;
-            height: 100%;
-            align-items: center;
-            justify-content: center;
+//         .SkillCardContentArrow{
+//             display: flex;
+//             width: 100%;
+//             height: 100%;
+//             align-items: center;
+//             justify-content: center;
             
-            .ArrowSkillCarrousselleContent{
-                display: none;
-            }
+//             .ArrowSkillCarrousselleContent{
+//                 display: none;
+//             }
         
-            .SkillCarrousselleContent{
-                width: 100%;
-                height: 100%;
-                display: flex;
-                justify-content: space-around;
-            }
-        }
+//             .SkillCarrousselleContent{
+//                 width: 100%;
+//                 height: 100%;
+//                 display: flex;
+//                 justify-content: space-around;
+//             }
+//         }
     
-        .bulletPointSkillCarrousselle{
-            display: none;
-        }
+//         .bulletPointSkillCarrousselle{
+//             display: none;
+//         }
+//     }
+// }
+
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  
+    .slider {
+      display: flex;
+      justify-content: center;
+      transition: transform 0.5s ease-in-out;
+      // width: calc(100% * 2); 
     }
-}
+  
+    .slide {
+      flex: 1 0 100%;
+      min-width: 100%;
+    }
+  
+    .active {
+      display: block;
+    }
+  
+    .prevButton,
+    .nextButton {
+      width: 5%;
+      background: none;
+      border: none;
+      cursor: pointer;
+
+      svg{
+        width: 75%;
+        height: auto;
+      }
+    }
+  
+    .prevButton {
+      left: 10px;
+    }
+  
+    .nextButton {
+      right: 10px;
+    }
+  
+    .indicators {
+      text-align: center;
+      margin-top: 20px;
+  
+      .indicator {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: var(--Black-color);
+        margin: 0 5px;
+        cursor: pointer;
+      }
+  
+      .activeIndicator {
+        background-color: var(--Main-color);
+      }
+    }
+  }
