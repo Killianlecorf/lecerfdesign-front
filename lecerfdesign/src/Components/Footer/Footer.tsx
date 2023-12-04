@@ -32,7 +32,17 @@ const Footer = () => {
             
         </div>
         <div className="CopyContent">
-
+            <div className="copyText">
+                <p>Copyrights 2023 Lecerf Design. / Tous droits réservés</p>
+            </div>
+            <div className="mentionLegal">
+                <ul>
+                    <li>Plan du site</li>
+                    <li>Gestion des cookies</li>
+                    <li>Mentions légales</li>
+                    <li>Politique de confidentialité</li>
+                </ul>
+            </div>
         </div>
         </>
     );
