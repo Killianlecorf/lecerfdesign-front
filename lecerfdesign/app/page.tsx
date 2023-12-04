@@ -7,7 +7,8 @@ import Video from "../public/Assets/Img/montage_video_vert.svg";
 import Photo from "../public/Assets/Img/photo_video_vert.svg";
 import Design from "../public/Assets/Img/design_web_vert.svg";
 import SkillCarrousselle from "@/Components/SkillCarrouselle/SkillCarrousselle";
-import BismoulienHomeContent from "@/Components/BismoulienHomeContent/BismoulienHomeContent";
+// import BismoulienHomeContent from "@/Components/BismoulienHomeContent/BismoulienHomeContent";
+import Footer from "@/Components/Footer/Footer";
 
 export default function Page() {
   return (
@@ -41,6 +42,7 @@ export default function Page() {
         </div>
         <SkillCarrousselle />
         {/* <BismoulienHomeContent /> */}
+        <Footer />
     </main>
   )
 }

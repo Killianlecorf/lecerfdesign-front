@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './_SkillCarrousselle.scss';
 import SkillCard from '../SkillCard/SkillCard';
 import skillImageLogo from '../../../public/Assets/Img/skillLogo.svg';

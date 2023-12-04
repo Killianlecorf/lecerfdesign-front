@@ -13,7 +13,7 @@
 //         .ArrowSkillCarrousselleContent{
 //             width: 5%;
 //             height: 100%;
-//             display: flex;
+//             display: flex; 
 //             justify-content: center;
 //             align-items: center;
     
@@ -140,6 +140,72 @@
   
       .activeIndicator {
         background-color: var(--Main-color);
+      }
+    }
+  }
+
+  @media (max-width: 950px){
+    .carousel {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+    
+      .slider {
+        display: flex;
+        justify-content: center;
+        transition: transform 0.5s ease-in-out;
+
+        .skillPair{
+          width: 50%;
+          height: 100%;
+        }
+      }
+    
+      .slide {
+        width: 100%;
+      }
+    
+      .active {
+        display: block;
+      }
+    
+      .prevButton,
+      .nextButton {
+        display: none;
+  
+        svg{
+          width: 75%;
+          height: auto;
+        }
+      }
+    
+      .prevButton {
+        left: 10px;
+        display: none;
+      }
+    
+      .nextButton {
+        right: 10px;
+        display: none;
+      }
+    
+      .indicators {
+        text-align: center;
+        margin-top: 20px;
+    
+        .indicator {
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: var(--Black-color);
+          margin: 0 5px;
+          cursor: pointer;
+        }
+    
+        .activeIndicator {
+          background-color: var(--Main-color);
+        }
       }
     }
   }

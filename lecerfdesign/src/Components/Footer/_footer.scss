@@ -1,0 +1,75 @@
+.footer{
+    width: 100%;
+    height: 35vh;
+    background-image: url('/Assets/Img/footer.svg');
+    background-repeat:no-repeat;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+
+    .footerContent{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        .footerLogo{
+            flex: 1;
+            height: 75%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+
+            svg{
+                width: 230px;
+                height: auto;
+            }
+        }
+
+        .footerInstagram{
+            flex: 1;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+
+            .logoContent{
+                width: 75%;
+                height: 60%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                svg{
+                    width: 50px;
+                    height: auto;   
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .contactButton{
+            flex: 1;
+            width: 33%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+
+            .contactButtonContent{
+                width: 50%;
+                height: 75%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .titleContact{
+                    color: var(--Main-color);
+                }
+            }
+        }
+    }
+}
