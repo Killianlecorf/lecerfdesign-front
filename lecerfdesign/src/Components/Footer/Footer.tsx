@@ -10,6 +10,7 @@ import Button from '../UI-kit/Button/Button';
 
 const Footer = () => {
     return (
+        <>
         <div className='footer'>
             <div className="footerContent">
                 <div className="footerLogo">
@@ -28,7 +29,12 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
+        <div className="CopyContent">
+
+        </div>
+        </>
     );
 };
 
