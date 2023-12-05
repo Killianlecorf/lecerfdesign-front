@@ -3,6 +3,7 @@
     height: 35vh;
     background-image: url('/Assets/Img/footer.svg');
     background-repeat:no-repeat;
+    background-size: cover;
     margin-top: 150px;
     display: flex;
     justify-content: center;
@@ -84,7 +85,7 @@
 
 .CopyContent{
     width: 100%;
-    height: 5vh;
+    height: 10vh;
     background-color: black;
     margin: 0 auto;
     display: flex;

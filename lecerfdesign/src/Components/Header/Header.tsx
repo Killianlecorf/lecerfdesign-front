@@ -35,7 +35,7 @@ const Header = () => {
                         <NavButton ButtonContent='Imprimés'/>
                     </div>
                     <div className="buttonNavContent">
-                        <NavButton ButtonContent='Vidéos'/>
+                        <NavButton ButtonContent='Créations'/>
                     </div>
                     <div className="BurgerModaleHeader">
                         <div onClick={changeOpenModal}>
