@@ -9,6 +9,7 @@ import Design from "../public/Assets/Img/design_web_vert.svg";
 import SkillCarrousselle from "@/Components/SkillCarrouselle/SkillCarrousselle";
 // import BismoulienHomeContent from "@/Components/BismoulienHomeContent/BismoulienHomeContent";
 import Footer from "@/Components/Footer/Footer";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -24,7 +25,9 @@ export default function Page() {
                 </div>
             </div>
             <div className="ButtonContentHome">
-                <Button ButtonClassName="BigButtonArrow" ButtonStyle={{fontSize: "16px", color: "var(--White-color)"}} ButtonContent="Contacter-nous" />
+                <Link href="/contact">
+                    <Button ButtonClassName="BigButtonArrow" ButtonStyle={{fontSize: "16px", color: "var(--White-color)"}} ButtonContent="Contactez-nous" />
+                </Link>
             </div>
         </div>
         <DescriptionLogo />
