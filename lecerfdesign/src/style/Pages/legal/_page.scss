@@ -1,0 +1,44 @@
+.legal{
+    width: 100%;
+    height: auto;
+    margin-top: 35vh;
+
+    .titleLegal{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            border: 5px solid var(--Main-color);
+            padding: 20px;
+            font-size: 30px;
+            border-radius: 0 20px 0 20px ;
+        }
+    }
+
+    .legalMentionContent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+
+        .legalContent{
+            width: 50%;
+            height: auto;
+
+            .textDecorationBar{
+                width: 90%;
+                height: 2px;
+                background-color: var(--Main-color);
+                margin: 10px 0 10px 0;
+            }
+
+            p{
+                margin: 0 auto ;
+            }
+        }
+    }
+}
