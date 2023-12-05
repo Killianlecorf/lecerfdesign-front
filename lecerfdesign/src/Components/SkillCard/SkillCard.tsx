@@ -14,10 +14,10 @@ const SkillCard:React.FC<ISkillCard> = ({SkillImage, SkillLogo, SkillDescription
     return (
         <div className='SkillCard'>
             <div className="imageSkillContent">
-                <Image src={SkillImage} alt={SkillImageAlt}/>
+                <Image src={SkillImage} width={400} height={400} alt={SkillImageAlt} />
             </div>
             <div className="logoSkillContent">
-                <Image src={SkillLogo} alt={SkillImageAlt}/>
+                <Image src={SkillLogo} width={400} height={400} alt={SkillImageAlt}/>
             </div>
             <div className="descriptionSkillCardContent">
                 <p>{SkillDescription}</p>
