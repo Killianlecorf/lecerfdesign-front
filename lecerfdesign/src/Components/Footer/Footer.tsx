@@ -42,7 +42,9 @@ const Footer = () => {
                     <ul>
                         <li>Plan du site</li>
                         <li>Gestion des cookies</li>
-                        <li>Mentions légales</li>
+                        <Link href='legal'>
+                            <li>Mentions légales</li>
+                        </Link>
                         <li>Politique de confidentialité</li>
                     </ul>
                 </div>

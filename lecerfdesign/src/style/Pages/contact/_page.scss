@@ -1,0 +1,162 @@
+.contact{
+    width: 100%;
+    height: auto;
+
+    .backgroundImage {
+        width: 100%;
+        height: 75vh;
+        background-image: url('/Assets/Img/photo_contact.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 5vh;
+
+        .titleContentHome{
+            color: var(--White-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            margin-bottom: 2%;
+            margin-top: 100px;
+
+            .titleHome{
+                width: 100%;
+                height: auto;
+                display: flex;
+                margin: 0 auto;
+
+                h1{
+                    font-size: 36px;
+                    padding: 0 auto;
+                    margin: 0 auto;
+                    color: var(--Black-color);
+
+                    div{
+                        color: var(--Main-color);
+                    }
+                }
+
+                .pNameHome{
+                    font-size: 36px;
+                    padding: 0 auto;
+                    margin: 0 auto;
+                    color: var(--Main-color);
+                }
+            }
+
+            .descriptionContentHome{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+
+                p{
+                    font-family: var(--Light-font);
+                    font-size: 21px;
+                    margin: 0 auto;
+                    color: var(--Main-color);
+                }
+            }
+        }
+    }
+
+    .titleContact{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            font-size: 24px;
+            margin: 0 auto;
+            margin-bottom: 5px;
+        }
+
+        .decorationTextBar{
+            width: 120px;
+            height: 2px;
+            background-color: var(--Main-color);
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .contact{
+        width: 100%;
+        height: auto;
+    
+        .backgroundImage {
+            width: 100%;
+            height: 75vh;
+            background-image: url('/Assets/Img/photo_contact.svg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 10vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 5vh;
+    
+            .titleContentHome{
+                color: var(--White-color);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                margin-bottom: 2%;
+    
+                .titleHome{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    margin: 0 auto;
+    
+                    h1{
+                        font-size: 36px;
+                        padding: 0 auto;
+                        margin: 0 auto;
+                        color: var(--Black-color);
+    
+                        div{
+                            color: var(--main-color);
+                        }
+                    }
+    
+                    .pNameHome{
+                        font-size: 36px;
+                        padding: 0 auto;
+                        margin: 0 auto;
+                        color: var(--main-color);
+                    }
+                }
+    
+                .descriptionContentHome{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    margin: 0 auto;
+    
+                    h2{
+                        font-family: var(--Light-font);
+                        font-size: 21px;
+                    }
+                }
+            }
+        }
+    }
+}
