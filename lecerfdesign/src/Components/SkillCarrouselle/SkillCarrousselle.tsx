@@ -2,14 +2,6 @@
 import React, { useState } from 'react';
 import './_SkillCarrousselle.scss';
 import SkillCard from '../SkillCard/SkillCard';
-import skillImageLogo from '../../../public/Assets/Img/skillLogo.svg';
-import logoLogo from '../../../public/Assets/Img/logoLogo.svg';
-import skillImageWebDesign from '../../../public/Assets/Img/skillwebdesign.svg';
-import logoWebDesign from '../../../public/Assets/Img/logowebdesign.svg';
-import logoImprimes from '../../../public/Assets/Img/logoImprimes.svg';
-import skillImprimes from '../../../public/Assets/Img/skillImprimes.svg';
-import skillVideo from '../../../public/Assets/Img/skillVideo.svg';
-import logoVideo from '../../../public/Assets/Img/logoVideo.svg';
 import { SlArrowRight, SlArrowLeft } from 'react-icons/sl';
 
 const SkillCarrousselle: React.FC = () => {
@@ -18,49 +10,49 @@ const SkillCarrousselle: React.FC = () => {
   const items = [
     [
       {
-        SkillImage: skillImageLogo,
-        SkillLogo: logoLogo,
+        SkillImage: "/Assets/Img/skillLogo.svg",
+        SkillLogo: "/Assets/Img/logoLogo.svg",
         SkillDescription: 'Skill 1 Description',
       },
       {
-        SkillImage: skillImageWebDesign,
-        SkillLogo: logoWebDesign,
+        SkillImage: "/Assets/Img/skillwebdesign.svg",
+        SkillLogo: "/Assets/Img/logowebdesign.svg",
         SkillDescription: 'Skill 2 Description',
       },
     ],
     [
       {
-        SkillImage: skillImageWebDesign,
-        SkillLogo: logoWebDesign,
+        SkillImage: "/Assets/Img/skillwebdesign.svg",
+        SkillLogo: "/Assets/Img/logowebdesign.svg",
         SkillDescription: 'Skill 2 Description',
       },
       {
-        SkillImage: skillImprimes,
-        SkillLogo: logoImprimes,
+        SkillImage: "/Assets/Img/skillImprimes.svg",
+        SkillLogo: "/Assets/Img/logoImprimes.svg",
         SkillDescription: 'Skill 3 Description',
       },
     ],
     [
       {
-        SkillImage: skillImprimes,
-        SkillLogo: logoImprimes,
+        SkillImage: "/Assets/Img/skillImprimes.svg",
+        SkillLogo: "/Assets/Img/logoImprimes.svg",
         SkillDescription: 'Skill 3 Description',
       },
       {
-        SkillImage: skillVideo,
-        SkillLogo: logoVideo,
+        SkillImage: "/Assets/Img/skillVideo.svg",
+        SkillLogo: "/Assets/Img/logoVideo.svg",
         SkillDescription: 'Skill 4 Description',
       },
     ],
     [
       {
-        SkillImage: skillVideo,
-        SkillLogo: logoVideo,
+        SkillImage: "/Assets/Img/skillVideo.svg",
+        SkillLogo: "/Assets/Img/logoVideo.svg",
         SkillDescription: 'Skill 4 Description',
       },
       {
-        SkillImage: skillImageLogo,
-        SkillLogo: logoLogo,
+        SkillImage: "/Assets/Img/skillLogo.svg",
+        SkillLogo: "/Assets/Img/logoLogo.svg",
         SkillDescription: 'Skill 1 Description',
       },
     ],

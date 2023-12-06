@@ -1,0 +1,105 @@
+.legal{
+    width: 100%;
+    height: auto;
+    margin-top: 35vh;
+
+    .titleLegal{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            border: 5px solid var(--Main-color);
+            padding: 20px;
+            font-size: 30px;
+            border-radius: 0 20px 0 20px;
+            margin-bottom: 100px;
+        }
+    }
+
+    .legalMentionContent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+
+        .legalContent{
+            width: 50%;
+            height: auto;
+
+            .textDecorationBar{
+                width: 90%;
+                height: 2px;
+                background-color: var(--Main-color);
+                margin: 20px 0 20px 0;
+            }
+
+            p{
+                margin: 0 auto ;
+            }
+
+            h2{
+                color: var(--Main-color);
+                font-size: 16px;
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .legal{
+        width: 100%;
+        height: auto;
+        margin-top: 15vh;
+    
+        .titleLegal{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            h1{
+                border: 5px solid var(--Main-color);
+                padding: 20px;
+                font-size: 30px;
+                border-radius: 0 20px 0 20px;
+                margin-bottom: 100px;
+            }
+        }
+    
+        .legalMentionContent{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center ;
+    
+            .legalContent{
+                width: 75%;
+                height: auto;
+    
+                .textDecorationBar{
+                    width: 90%;
+                    height: 2px;
+                    background-color: var(--Main-color);
+                    margin: 20px 0 20px 0;
+                }
+    
+                p{
+                    margin: 0 auto ;
+                }
+    
+                h2{
+                    color: var(--Main-color);
+                    font-size: 16px;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}

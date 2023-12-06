@@ -1,11 +1,12 @@
 .Header{
     width: 100%;
-    height: 250px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     z-index: 9999;
     position: fixed;
+    top: 20px;
 
     .ButtonHeader{
         width: 80%;
@@ -13,11 +14,13 @@
         display: flex;
         padding-left: 20%;
         background-color: var(--White-color);
+        
 
         .headerContent{
             width: 60vw;
             height: 100%; 
             display: flex;
+            margin-bottom: 20vh;
 
             .buttonNavContent{
                 width: 15%;
@@ -35,14 +38,25 @@
                 justify-content: center;
 
                 img{
-                    width: 91px;
-                    height: 146px;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: 0px;
+                    width: 80px;
+                    height: auto;
                 }
             }
 
             .BurgerModaleHeader{
                 display: none;
             }
+        }
+        .ButtonContactHeader{
+            width: 25%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
     
@@ -69,6 +83,7 @@
         justify-content: center;
         z-index: 9999;
         position: fixed;
+        top: 0;
     
         .ButtonHeader{
             width: 100%;
@@ -97,6 +112,7 @@
     
                     img{
                         display: block;
+                        position: static;
                         width: 50px;
                         height: auto;
                     }
@@ -122,6 +138,9 @@
                         }
                     }
                 }
+            }
+            .ButtonContactHeader{
+                display: none;
             }
         }
         
