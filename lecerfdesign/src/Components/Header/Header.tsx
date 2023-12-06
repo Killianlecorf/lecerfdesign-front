@@ -23,7 +23,7 @@ const Header = () => {
             <div className="ButtonHeader">
                 <div className="headerContent">
                     <div className="buttonNavContent">
-                        <NavButton ButtonContent='Logos'/>
+                        <NavButton ButtonContent='Log'/>
                     </div>
                     <div className="buttonNavContent">
                         <NavButton ButtonContent='Webdesign'/>
