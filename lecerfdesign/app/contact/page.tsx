@@ -1,7 +1,7 @@
 import Footer from '@/Components/Footer/Footer';
 import Header from '@/Components/Header/Header';
 import React from 'react';
-import '../../src/style/Pages/contact/_page.scss'
+import '../../src/style/Pages/contact/_page.scss';
 
 export default function Contact() {
     return (
@@ -14,7 +14,7 @@ export default function Contact() {
                     </div>
                     <div className="descriptionContentHome">
                         <p>Un question ? un besoin ?</p>
-                        <p>c'est ici !</p>
+                        <p>c&apos;est ici !</p>
                     </div>
                 </div>
             </div>
