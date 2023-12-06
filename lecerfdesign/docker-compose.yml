@@ -3,11 +3,7 @@ version: '3.8'
 services:
   nextjs:
     build:
-      context: .
-      dockerfile: ./lecerfdesign/Dockerfile
+      dockerfile: Dockerfile
     container_name: nextjs-app
     ports:
       - "3000:3000"
-    volumes:
-      - ./app:/app
-    working_dir: /app
