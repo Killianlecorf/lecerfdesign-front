@@ -7,20 +7,20 @@ const LogoImageContent = () => {
         <div className='LogoImageContent'>
             <div className="imageContent">
                 <div className="logoContent1">
-                    <Image src="/assets/img/logo_1.svg" alt='logo Noble Site' width={277} height={307} />
-                    <Image src="/assets/img/logo_4.svg" alt='Mock-up' width={277} height={336}  />
-                    <Image src="/assets/img/logo_7.svg" alt='Mock-up' width={277} height={336}  />
-                    <Image src="/assets/img/logo_10.svg" alt='Mock-up' width={277} height={336}  />
+                    <Image src="/Assets/Img/logo_1.svg" width={277} height={307} alt='logo Noble Site' />
+                    <Image src="/Assets/Img/logo_4.svg" width={277} height={336} alt='Mock-up'/>
+                    <Image src="/Assets/Img/logo_7.svg" width={277} height={336} alt='Mock-up'/>
+                    <Image src="/Assets/Img/logo_10.svg" width={277} height={336} alt='Mock-up' />
                 </div>
                 <div className="logoContent2">
-                    <Image src="/assets/img/logo_2.svg" alt='Logo O&apos;ZOO' width={277} height={279} />
-                    <Image src="/assets/img/logo_5.svg" alt='Mock-up' width={277} height={438}  />
-                    <Image src="/assets/img/logo_8.svg" alt='Mock-up' width={277} height={279}  />
+                    <Image src="/Assets/Img/logo_2.svg" width={277} height={279} alt='Logo O&apos;ZOO' />
+                    <Image src="/Assets/Img/logo_5.svg" width={277} height={438} alt='Mock-up' />
+                    <Image src="/Assets/Img/logo_8.svg" width={277} height={279} alt='Mock-up' />
                 </div>
                 <div className="logoContent3">
-                    <Image src="/assets/img/logo_3.svg" alt='Mock-up' width={277} height={440} />
-                    <Image src="/assets/img/logo_6.svg" alt='Mock-up' width={277} height={336}  />
-                    <Image src="/assets/img/logo_9.svg" alt='Mock-up' width={277} height={336}  />
+                    <Image src="/Assets/Img/logo_3.svg" width={277} height={440} alt='Mock-up' />
+                    <Image src="/Assets/Img/logo_6.svg" width={277} height={336} alt='Mock-up' />
+                    <Image src="/Assets/Img/logo_9.svg" width={277} height={336} alt='Mock-up'/>
                 </div>
             </div>
         </div>
