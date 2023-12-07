@@ -32,10 +32,12 @@ body{
     margin: 0 auto;
     background-color: white;
     font-family: var(--Regular-font);
+    font-display: swap;
 }
 
 p, h1, h2, h3{
     font-family: var(--Bold-font);
+    font-display: swap;
 }
 
 a{

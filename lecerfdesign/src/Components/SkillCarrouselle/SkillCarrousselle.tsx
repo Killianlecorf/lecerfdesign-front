@@ -10,50 +10,57 @@ const SkillCarrousselle: React.FC = () => {
   const items = [
     [
       {
-        SkillImage: "/Assets/Img/skillLogo.svg",
+        SkillImage: "/Assets/Img/skilllogo.jpg",
         SkillLogo: "/Assets/Img/logoLogo.svg",
-        SkillDescription: 'Skill 1 Description',
+        SkillDescription: 'Découvrez notre galerie de logos, chaque création porte en elle une histoire !',
+        skillPath: "/logo"
       },
       {
-        SkillImage: "/Assets/Img/skillwebdesign.svg",
+        SkillImage: "/Assets/Img/skillwebdesign.jpg",
         SkillLogo: "/Assets/Img/logowebdesign.svg",
-        SkillDescription: 'Skill 2 Description',
+        SkillDescription: "Explorez nos créations de webdesign, porteuses de visions, l'inspiration visuelle pour votre présence en ligne idéale !",
+        skillPath: "/webdesign"
       },
     ],
     [
       {
-        SkillImage: "/Assets/Img/skillwebdesign.svg",
+        SkillImage: "/Assets/Img/skillwebdesign.jpg",
         SkillLogo: "/Assets/Img/logowebdesign.svg",
-        SkillDescription: 'Skill 2 Description',
+        SkillDescription: "Explorez nos créations de webdesign, porteuses de visions, l'inspiration visuelle pour votre présence en ligne idéale !",
       },
       {
-        SkillImage: "/Assets/Img/skillImprimes.svg",
+        SkillImage: "/Assets/Img/skillimprimes.jpg",
         SkillLogo: "/Assets/Img/logoImprimes.svg",
-        SkillDescription: 'Skill 3 Description',
+        SkillDescription: 'Explorez nos sites internet uniques, conçus avec avec un dévouement. Chacun incarne notre passion pour le design en ligne !',
+        skillPath: "/imprimes"
       },
     ],
     [
       {
-        SkillImage: "/Assets/Img/skillImprimes.svg",
+        SkillImage: "/Assets/Img/skillimprimes.jpg",
         SkillLogo: "/Assets/Img/logoImprimes.svg",
-        SkillDescription: 'Skill 3 Description',
+        SkillDescription: 'Explorez nos sites internet uniques, conçus avec avec un dévouement. Chacun incarne notre passion pour le design en ligne !',
+        skillPath: "/imprimes"
       },
       {
-        SkillImage: "/Assets/Img/skillVideo.svg",
+        SkillImage: "/Assets/Img/skillvideo.jpg",
         SkillLogo: "/Assets/Img/logoVideo.svg",
-        SkillDescription: 'Skill 4 Description',
+        SkillDescription: "Décourvrez nos vidéos, façonnées avec passion et savoir-faire. Incarnant notre art de l’image !",
+        skillPath: "/videos"
       },
     ],
     [
       {
-        SkillImage: "/Assets/Img/skillVideo.svg",
+        SkillImage: "/Assets/Img/skillvideo.jpg",
         SkillLogo: "/Assets/Img/logoVideo.svg",
-        SkillDescription: 'Skill 4 Description',
+        SkillDescription: "Décourvrez nos vidéos, façonnées avec passion et savoir-faire. Incarnant notre art de l’image !",
+        skillPath: "/videos"
       },
       {
-        SkillImage: "/Assets/Img/skillLogo.svg",
+        SkillImage: "/Assets/Img/skilllogo.jpg",
         SkillLogo: "/Assets/Img/logoLogo.svg",
-        SkillDescription: 'Skill 1 Description',
+        SkillDescription: 'Découvrez notre galerie de logos, chaque création porte en elle une histoire !',
+        skillPath: "/logo"
       },
     ],
   ];
@@ -82,6 +89,7 @@ const SkillCarrousselle: React.FC = () => {
               SkillImage={itemPair.SkillImage}
               SkillLogo={itemPair.SkillLogo}
               SkillDescription={itemPair.SkillDescription}
+              skillPath={itemPair.skillPath || ""}
             />
           </div>
         ))}
