@@ -12,48 +12,48 @@ const SkillCarrousselle: React.FC = () => {
       {
         SkillImage: "/Assets/Img/skilllogo.jpg",
         SkillLogo: "/Assets/Img/logoLogo.svg",
-        SkillDescription: 'Skill 1 Description',
+        SkillDescription: 'Découvrez notre galerie de logos, chaque création porte en elle une histoire !',
       },
       {
         SkillImage: "/Assets/Img/skillwebdesign.jpg",
         SkillLogo: "/Assets/Img/logowebdesign.svg",
-        SkillDescription: 'Skill 2 Description',
+        SkillDescription: "Explorez nos créations de webdesign, porteuses de visions, l'inspiration visuelle pour votre présence en ligne idéale !",
       },
     ],
     [
       {
         SkillImage: "/Assets/Img/skillwebdesign.jpg",
         SkillLogo: "/Assets/Img/logowebdesign.svg",
-        SkillDescription: 'Skill 2 Description',
+        SkillDescription: "Explorez nos créations de webdesign, porteuses de visions, l'inspiration visuelle pour votre présence en ligne idéale !",
       },
       {
         SkillImage: "/Assets/Img/skillimprimes.jpg",
         SkillLogo: "/Assets/Img/logoImprimes.svg",
-        SkillDescription: 'Skill 3 Description',
+        SkillDescription: 'Explorez nos sites internet uniques, conçus avec avec un dévouement. Chacun incarne notre passion pour le design en ligne !',
       },
     ],
     [
       {
         SkillImage: "/Assets/Img/skillimprimes.jpg",
         SkillLogo: "/Assets/Img/logoImprimes.svg",
-        SkillDescription: 'Skill 3 Description',
+        SkillDescription: 'Explorez nos sites internet uniques, conçus avec avec un dévouement. Chacun incarne notre passion pour le design en ligne !',
       },
       {
         SkillImage: "/Assets/Img/skillvideo.jpg",
         SkillLogo: "/Assets/Img/logoVideo.svg",
-        SkillDescription: 'Skill 4 Description',
+        SkillDescription: "Décourvrez nos vidéos, façonnées avec passion et savoir-faire. Incarnant notre art de l’image !",
       },
     ],
     [
       {
         SkillImage: "/Assets/Img/skillvideo.jpg",
         SkillLogo: "/Assets/Img/logoVideo.svg",
-        SkillDescription: 'Skill 4 Description',
+        SkillDescription: "Décourvrez nos vidéos, façonnées avec passion et savoir-faire. Incarnant notre art de l’image !",
       },
       {
         SkillImage: "/Assets/Img/skilllogo.jpg",
         SkillLogo: "/Assets/Img/logoLogo.svg",
-        SkillDescription: 'Skill 1 Description',
+        SkillDescription: 'Découvrez notre galerie de logos, chaque création porte en elle une histoire !',
       },
     ],
   ];
