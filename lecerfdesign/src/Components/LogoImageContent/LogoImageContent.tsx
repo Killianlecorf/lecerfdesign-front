@@ -23,6 +23,18 @@ const LogoImageContent = () => {
                     <Image src="/Assets/Img/logo_9.svg" width={277} height={336} alt='Mock-up'/>
                 </div>
             </div>
+            <div className="imageContentResponsive">
+                    <Image src="/Assets/Img/Logo_1_responsive.svg" width={240} height={114} alt='logo Noble Site' />
+                    <Image src="/Assets/Img/logo_2_responsive.svg" width={240} height={114} alt='Mock-up'/>
+                    <Image src="/Assets/Img/logo_3_responsive.svg" width={240} height={114} alt='Mock-up'/>
+                    <Image src="/Assets/Img/logo_4_responsive.svg" width={240} height={114} alt='Mock-up' />
+                    <Image src="/Assets/Img/logo_5_responsive.svg" width={240} height={114} alt='logo Noble Site' />
+                    <Image src="/Assets/Img/logo_6_responsive.svg" width={240} height={114} alt='Mock-up'/>
+                    <Image src="/Assets/Img/logo_7_responsive.svg" width={240} height={114} alt='Mock-up'/>
+                    <Image src="/Assets/Img/logo_8_responsive.svg" width={240} height={114} alt='Mock-up' />
+                    <Image src="/Assets/Img/logo_9_responsive.svg" width={240} height={114} alt='logo Noble Site' />
+                    <Image src="/Assets/Img/logo_10_responsive.svg" width={240} height={114} alt='Mock-up'/>
+            </div>
         </div>
     );
 };
