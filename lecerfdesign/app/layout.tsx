@@ -16,6 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+      <link rel="shortcut icon" href="/Assets/Img/logo_vert.svg" />
       <body className={inter.className}>{children}</body>
     </html>
   )
