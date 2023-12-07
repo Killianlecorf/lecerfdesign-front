@@ -1,7 +1,7 @@
 import Footer from '@/Components/Footer/Footer';
 import Header from '@/Components/Header/Header';
 import React from 'react';
-import '../../src/style/Pages/privacyPolicy/_page.scss'
+import '../../src/style/Pages/privacypolicy/_page.scss'
 
 const privacyPolice = () => {
     return (
