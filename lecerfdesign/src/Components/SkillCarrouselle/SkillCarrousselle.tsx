@@ -10,48 +10,48 @@ const SkillCarrousselle: React.FC = () => {
   const items = [
     [
       {
-        SkillImage: "/Assets/Img/skillLogo.svg",
+        SkillImage: "/Assets/Img/skilllogo.jpg",
         SkillLogo: "/Assets/Img/logoLogo.svg",
         SkillDescription: 'Skill 1 Description',
       },
       {
-        SkillImage: "/Assets/Img/skillwebdesign.svg",
+        SkillImage: "/Assets/Img/skillwebdesign.jpg",
         SkillLogo: "/Assets/Img/logowebdesign.svg",
         SkillDescription: 'Skill 2 Description',
       },
     ],
     [
       {
-        SkillImage: "/Assets/Img/skillwebdesign.svg",
+        SkillImage: "/Assets/Img/skillwebdesign.jpg",
         SkillLogo: "/Assets/Img/logowebdesign.svg",
         SkillDescription: 'Skill 2 Description',
       },
       {
-        SkillImage: "/Assets/Img/skillImprimes.svg",
+        SkillImage: "/Assets/Img/skillimprimes.jpg",
         SkillLogo: "/Assets/Img/logoImprimes.svg",
         SkillDescription: 'Skill 3 Description',
       },
     ],
     [
       {
-        SkillImage: "/Assets/Img/skillImprimes.svg",
+        SkillImage: "/Assets/Img/skillimprimes.jpg",
         SkillLogo: "/Assets/Img/logoImprimes.svg",
         SkillDescription: 'Skill 3 Description',
       },
       {
-        SkillImage: "/Assets/Img/skillVideo.svg",
+        SkillImage: "/Assets/Img/skillvideo.jpg",
         SkillLogo: "/Assets/Img/logoVideo.svg",
         SkillDescription: 'Skill 4 Description',
       },
     ],
     [
       {
-        SkillImage: "/Assets/Img/skillVideo.svg",
+        SkillImage: "/Assets/Img/skillvideo.jpg",
         SkillLogo: "/Assets/Img/logoVideo.svg",
         SkillDescription: 'Skill 4 Description',
       },
       {
-        SkillImage: "/Assets/Img/skillLogo.svg",
+        SkillImage: "/Assets/Img/skilllogo.jpg",
         SkillLogo: "/Assets/Img/logoLogo.svg",
         SkillDescription: 'Skill 1 Description',
       },
