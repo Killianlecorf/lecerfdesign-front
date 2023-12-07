@@ -1,6 +1,7 @@
 import React from 'react';
 import './_ModalNavigation.scss';
 import NavButton from '../UI-kit/NavButton/NavButton';
+import Link from 'next/link';
 
 interface IModalNavigation {
     isOpen: boolean;
@@ -17,10 +18,14 @@ const ModalNavigation: React.FC<IModalNavigation> = ({ isOpen, setIsOpen }) => {
         <div>
             <div className={`ModalNavigation-${isOpen ? "open" : "close"}`}>
                 <div className="ButtonNavContent">
-                    <NavButton ButtonContent='Accueil' />
+                    <Link href="/">
+                        <NavButton ButtonContent='Accueil' />
+                    </Link>
                 </div>
                 <div className="ButtonNavContent">
-                    <NavButton ButtonContent='Logos' />
+                    <Link href="/logo">
+                        <NavButton ButtonContent='Logos' />
+                    </Link>
                 </div>
                 <div className="ButtonNavContent">
                     <NavButton ButtonContent='Webdesign' />
@@ -32,7 +37,9 @@ const ModalNavigation: React.FC<IModalNavigation> = ({ isOpen, setIsOpen }) => {
                     <NavButton ButtonContent='Mes créations' />
                 </div>
                 <div className="ButtonNavContent">
-                    <NavButton ButtonContent='Contact' />
+                    <Link href="/contact">
+                        <NavButton ButtonContent='Contact' />
+                    </Link>
                 </div>
             </div>
             <div onClick={closeNavModale} className={`backNavModal-${isOpen ? "open" : "close"}`}></div>
