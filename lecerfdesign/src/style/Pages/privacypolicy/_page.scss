@@ -56,12 +56,12 @@
 }
 
 @media (max-width: 950px) {
-    .legal{
+    .privacyPolice{
         width: 100%;
         height: auto;
         margin-top: 15vh;
     
-        .titleLegal{
+        .titlePrivacyPolice{
             width: 100%;
             height: auto;
             display: flex;
@@ -77,14 +77,14 @@
             }
         }
     
-        .legalMentionContent{
+        .privacyPoliceMentionContent{
             width: 100%;
             height: auto;
             display: flex;
             justify-content: center;
             align-items: center ;
     
-            .legalContent{
+            .privacyPoliceContent{
                 width: 75%;
                 height: auto;
     

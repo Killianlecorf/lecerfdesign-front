@@ -1,7 +1,7 @@
 import Footer from '@/Components/Footer/Footer';
 import Header from '@/Components/Header/Header';
 import React from 'react';
-import '../../src/style/Pages/privacyPolice/_page.scss'
+import '../../src/style/Pages/privacyPolicy/_page.scss'
 
 const privacyPolice = () => {
     return (
@@ -28,6 +28,26 @@ const privacyPolice = () => {
                         <p style={{color: "var(--Main-color)", marginTop: "100px"}}>COMMENT UTILISONS-NOUS VOS INFORMATIONS PERSONNELLES?</p>
                         <div className="textDecorationBar"> </div>
                         <p>En règle générale, nous utilisons les informations de demande de contact que nous recueillons pour traiter toute demande passée par le biais du Site. En outre, nous utilisons ces informations de demande de contact pour communiquer avec vous.</p>
+                        <p style={{color: "var(--Main-color)", marginTop: "100px"}}>PARTAGE DE VOS INFORMATIONS PERSONNELLES</p>
+                        <div className="textDecorationBar"> </div>
+                        <p>Nous ne partageons vos informations personnelles qu'avec Office 365 qui nous aide à les utiliser afin de vous envoyer des courriels.</p>
+                        <p>Enfin, il se peut que nous partagions aussi vos informations personnelles pour respecter les lois et réglementations applicables, répondre à une assignation, à un mandat de perquisition ou à toute autre demande légale de renseignements que nous recevons, ou pour protéger nos droits.</p>
+                        <p style={{color: "var(--Main-color)", marginTop: "100px"}}>NE PAS SUIVRE</p>
+                        <div className="textDecorationBar"> </div>
+                        <p>Veuillez noter que nous modifions la collecte de données de notre Site et nos pratiques d'utilisation lorsque nous détectons un signal « Ne pas suivre » sur votre navigateur.</p>
+                        <p style={{color: "var(--Main-color)", marginTop: "100px"}}>VOS DROITS</p>
+                        <div className="textDecorationBar"> </div>
+                        <p>Si vous êtes résident(e) européen(ne), vous disposez d'un droit d'accès aux informations personnelles que nous détenons à votre sujet et vous pouvez demander à ce qu'elles soient corrigées, mises à jour ou supprimées. Si vous souhaitez exercer ce droit, veuillez nous contacter au moyen des coordonnées précisées ci-dessous. Par ailleurs, si vous êtes résident(e) européen(ne), notez que nous traitons vos informations dans le but de remplir nos obligations contractuelles à votre égard (par exemple si vous effectuez une demande de contact sur le site) ou de poursuivre nos intérêts commerciaux légitimes, énumérés ci-dessus.</p>
+                        <p style={{color: "var(--Main-color)", marginTop: "100px"}}>RÉTENTION DES DONNÉES</p>
+                        <div className="textDecorationBar"> </div>
+                        <p>Lorsque vous effectuez une demande de contact par l'intermédiaire du Site, nous conservons les informations sur votre demande dans nos dossiers, pendant une période de 36 mois dans le but de vous informer de nos offres et de nos services. Nous pouvons également conserver certaines de vos informations personnelles pour des raisons administratives, juridiques ou de sécurité jusqu'au jour du traitement de votre demande.</p>
+                        <p style={{color: "var(--Main-color)", marginTop: "100px"}}>CHANGEMENTS</p>
+                        <div className="textDecorationBar"> </div>
+                        <p>Nous pouvons être amenés à modifier la présente politique de confidentialité de temps à autre afin d'y refléter, par exemple, les changements apportés à nos pratiques ou pour d'autres motifs opérationnels, juridiques ou réglementaires.</p>
+                        <p style={{color: "var(--Main-color)", marginTop: "100px"}}>NOUS CONTACTER</p>
+                        <div className="textDecorationBar"> </div>
+                        <p>Pour en savoir plus sur nos pratiques de confidentialité, si vous avez des questions ou si vous souhaitez déposer une réclamation, veuillez nous contacter par e-mail à lecerfdesign@gmail.com , ou par courrier à l'adresse suivante :</p>
+                        <p style={{marginTop:"40px"}}>LECERF DESIGN - 63 Rue Louis Poterat, Rouen</p>
                     </div>
                 </div>
             <Footer/>
