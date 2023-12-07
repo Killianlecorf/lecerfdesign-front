@@ -57,7 +57,7 @@ const Header:React.FC<HeaderProps> = ({currentPath}) => {
                 </div>
                 <div className="ButtonContactHeader">
                     <Link href="/contact">
-                        <Button ButtonContent='Contact' ButtonClassName='ButtonArrow'/>
+                        <Button ButtonContent='Contact' ButtonClassName='Button'/>
                     </Link>
                 </div>
             </div>
