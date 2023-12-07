@@ -24,7 +24,7 @@ const LogoImageContent = () => {
                 </div>
             </div>
             <div className="imageContentResponsive">
-                    <Image src="/Assets/Img/Logo_1_responsive.jpg" width={240} height={114} alt='logo Noble Site' />
+                    <Image src="/Assets/Img/logo_1_responsive.jpg" width={240} height={114} alt='logo Noble Site' />
                     <Image src="/Assets/Img/logo_2_responsive.jpg" width={240} height={114} alt='Mock-up'/>
                     <Image src="/Assets/Img/logo_3_responsive.jpg" width={240} height={114} alt='Mock-up'/>
                     <Image src="/Assets/Img/logo_4_responsive.jpg" width={240} height={114} alt='Mock-up' />
