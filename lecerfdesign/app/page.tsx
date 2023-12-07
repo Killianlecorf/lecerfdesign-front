@@ -14,7 +14,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main className="Home">
-        <Header />
+        <Header/>
         <div className="backgroundImage">
             <div className="titleContentHome">
                 <div className="titleHome">

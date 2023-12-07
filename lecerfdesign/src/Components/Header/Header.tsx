@@ -7,8 +7,13 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import ModalNavigation from '../ModalNavigation/ModalNavigation';
 import Button from '../UI-kit/Button/Button';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
-const Header = () => {
+interface HeaderProps {
+    currentPath?: string;
+  }
+
+const Header:React.FC<HeaderProps> = ({currentPath}) => {
 
     const [isOpenNavModal, setIsOpenNavModal] = useState<boolean>(false)
 
@@ -16,14 +21,19 @@ const Header = () => {
         setIsOpenNavModal(!isOpenNavModal)
         console.log(isOpenNavModal);
     }
- 
 
     return (
         <div className='Header'>
             <div className="ButtonHeader">
                 <div className="headerContent">
                     <div className="buttonNavContent">
-                        <NavButton ButtonContent='Logos'/>
+                        <Link href="/logo">
+                            {currentPath === '/logo' ? (
+                                <NavButton ButtonContent='Logos' ButtonStyle={{color: "var(--Main-color)"}}/>
+                            ) : (
+                                <NavButton ButtonContent='Logos'/>
+                            )}
+                        </Link>
                     </div>
                     <div className="buttonNavContent">
                         <NavButton ButtonContent='Webdesign'/>

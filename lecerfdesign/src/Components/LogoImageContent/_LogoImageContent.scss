@@ -1,0 +1,49 @@
+.LogoImageContent {
+    width: 100%;
+    height: auto;
+    margin-top: 35vh;
+    display: flex;
+    justify-content: center;
+
+    .imageContent {
+        width: auto;
+        height: auto;
+        display: flex;
+
+        .logoContent1{
+            flex: 1;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                margin: 10px;
+            }
+        }
+
+        .logoContent2{
+            flex: 1;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                margin: 10px;
+            }
+        }
+
+        .logoContent3{
+            flex: 1;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                margin: 10px;
+            }
+        }
+    }
+}
