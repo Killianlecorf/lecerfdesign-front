@@ -19,8 +19,12 @@ const Footer = () => {
                     </div>
                     <div className="footerInstagram">
                         <div className="logoContent">
-                            <FaInstagram />
-                            <ImLinkedin2 />
+                            <Link href="https://instagram.com/lecerf_design?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr">
+                                <FaInstagram />
+                            </Link>
+                            <Link href="https://www.linkedin.com/in/thomas-lecerf-80a197224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                                <ImLinkedin2 />
+                            </Link>
                         </div>
                     </div>
                     <div className="contactButton">
