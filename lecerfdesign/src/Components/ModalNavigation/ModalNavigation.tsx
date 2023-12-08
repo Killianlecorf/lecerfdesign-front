@@ -28,13 +28,19 @@ const ModalNavigation: React.FC<IModalNavigation> = ({ isOpen, setIsOpen }) => {
                     </Link>
                 </div>
                 <div className="ButtonNavContent">
-                    <NavButton ButtonContent='Webdesign' />
+                    <Link href="/webdesign">
+                        <NavButton ButtonContent='Webdesign' />
+                    </Link>
                 </div>
                 <div className="ButtonNavContent">
-                    <NavButton ButtonContent='Imprimés' />
+                    <Link href="/printed">
+                        <NavButton ButtonContent='Imprimés' />
+                    </Link>
                 </div>
                 <div className="ButtonNavContent">
-                    <NavButton ButtonContent='Mes créations' />
+                    <Link href="/creations">
+                        <NavButton ButtonContent='Mes créations' />
+                    </Link>
                 </div>
                 <div className="ButtonNavContent">
                     <Link href="/contact">
