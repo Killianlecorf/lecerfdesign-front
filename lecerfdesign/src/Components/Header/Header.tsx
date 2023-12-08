@@ -7,7 +7,6 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import ModalNavigation from '../ModalNavigation/ModalNavigation';
 import Button from '../UI-kit/Button/Button';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 
 interface HeaderProps {
     currentPath?: string;
@@ -19,7 +18,6 @@ const Header:React.FC<HeaderProps> = ({currentPath}) => {
 
     const changeOpenModal = ()=> {
         setIsOpenNavModal(!isOpenNavModal)
-        console.log(isOpenNavModal);
     }
 
     return (
@@ -36,7 +34,13 @@ const Header:React.FC<HeaderProps> = ({currentPath}) => {
                         </Link>
                     </div>
                     <div className="buttonNavContent">
-                        <NavButton ButtonContent='Webdesign'/>
+                    <Link href="/webdesign">
+                        {currentPath === '/webdesign' ? (
+                            <NavButton ButtonContent='Webdesign' ButtonStyle={{ color: "var(--Main-color)" }} />
+                        ) : (
+                            <NavButton ButtonContent='Webdesign' />
+                        )}
+                    </Link>
                     </div>
                     <div className="logoContentHeader">
                         <Link href="/">
@@ -44,10 +48,22 @@ const Header:React.FC<HeaderProps> = ({currentPath}) => {
                         </Link>
                     </div>
                     <div className="buttonNavContent">
-                        <NavButton ButtonContent='Imprimés'/>
+                        <Link href="/printed">
+                            {currentPath === '/printed' ? (
+                                <NavButton ButtonContent='Imprimés' ButtonStyle={{color: "var(--Main-color)"}}/>
+                            ) : (
+                                <NavButton ButtonContent='Imprimés'/>
+                            )}
+                        </Link>
                     </div>
                     <div className="buttonNavContent">
-                        <NavButton ButtonContent='Créations'/>
+                        <Link href="/creations">
+                            {currentPath === '/creations' ? (
+                                <NavButton ButtonContent='Créations' ButtonStyle={{color: "var(--Main-color)"}}/>
+                            ) : (
+                                <NavButton ButtonContent='Créations'/>
+                            )}
+                        </Link>
                     </div>
                     <div className="BurgerModaleHeader">
                         <div onClick={changeOpenModal}>
