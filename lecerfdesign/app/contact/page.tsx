@@ -2,6 +2,7 @@ import Footer from '@/Components/Footer/Footer';
 import Header from '@/Components/Header/Header';
 import React from 'react';
 import '../../src/style/Pages/contact/_page.scss';
+import FormContact from '@/Components/FormContact/FormContact';
 
 export default function Contact() {
     return (
@@ -23,6 +24,7 @@ export default function Contact() {
                 <p>NOUS TROUVER</p>
                 <div className="decorationTextBar"> </div>
             </div>
+            <FormContact />
             <Footer />
         </main>
     );
