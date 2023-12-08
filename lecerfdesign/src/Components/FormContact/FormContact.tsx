@@ -14,7 +14,9 @@ const FormContact = () => {
                 <div className="FormContactContent">
                     <Image src="/Assets/Img/lecerfdesign_logo.svg" alt='Logo Lecerf design' width={426} height={103}/>
                     <div className="informationContactContent">
-                        <h2>ROUEN</h2>
+                        <div>
+                            <h2>ROUEN</h2>
+                        </div>
                         <div className="localisationContent">
                             <FaLocationDot /> <div className=""><p>63 Rue Louis Poterat, Rouen</p></div>
                         </div>
@@ -28,9 +30,9 @@ const FormContact = () => {
                     <div className="FormulaireContact">
                         <input type="text" placeholder='Prénom*' required/>
                         <input type="text" placeholder='Nom*' required/>
-                        <input type="phone" placeholder='Téléphone*' required/>
+                        <input type="phone" placeholder='Téléphone' />
                         <input type="mail" placeholder='Adresse mail*' required/>
-                        <input type="text" placeholder='Sujet*' style={{width: "100%"}} required/>
+                        <input type="text" className='subjectInput' placeholder='Sujet*' required/>
                         <textarea name="message" placeholder='Votre Message*' required></textarea>
                         <div className="rgpdCheckbox">
                             <p><input type="checkbox" className='checkboxInput' />J&apos;accepte que ces données soient recueillies par LECERF DESIGN afin de prendre mon contact pour répondre à mes questions ou à ma candidature. Pour révoquer ce consentement, veuillez consulter la <span style={{color: "var(--Main-color)"}}><Link href="/privacypolicy">politique de confidentialité.*</Link></span></p>
