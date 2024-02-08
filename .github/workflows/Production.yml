@@ -27,5 +27,5 @@ jobs:
             cd docker
             sudo rm -r lecerfdesign-front
             git clone git@github.com:Killianlecorf/lecerfdesign-front.git
-            cd lecerfdesign-front/lecerfdesign
+            cd lecerfdesign-nextjs/lecerfdesign
             sudo docker-compose up --build -d
