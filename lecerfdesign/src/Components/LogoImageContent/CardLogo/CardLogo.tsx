@@ -1,4 +1,5 @@
 import React from 'react';
+import "./CardLogo.scss";
 
 interface CardLogoProps {
     LinkImage: string; 
