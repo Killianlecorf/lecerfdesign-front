@@ -1,5 +1,5 @@
 import React from 'react';
-import "./CardLogo.scss";
+import "./CardImage.scss";
 
 interface CardLogoProps {
     LinkImage: string; 
@@ -10,7 +10,7 @@ interface CardLogoProps {
     AltText: string;
 }
 
-const CardLogo: React.FC<CardLogoProps> = ({ LinkImage, WidthImage, HeightImage, Title, Content, AltText }) => {
+const CardImage: React.FC<CardLogoProps> = ({ LinkImage, WidthImage, HeightImage, Title, Content, AltText }) => {
     return (
         <div className='card'>
             <img src={LinkImage} width={WidthImage} height={HeightImage} alt={AltText} />
@@ -24,4 +24,4 @@ const CardLogo: React.FC<CardLogoProps> = ({ LinkImage, WidthImage, HeightImage,
     );
 };
 
-export default CardLogo;
+export default CardImage;

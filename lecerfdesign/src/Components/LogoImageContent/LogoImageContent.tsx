@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import './_LogoImageContent.scss';
-import CardLogo from '@/Components/LogoImageContent/CardLogo/CardLogo';
+import CardLogo from '@/Components/CardImage/CardImage';
 
 const LogoImageContent = () => {
     return (
