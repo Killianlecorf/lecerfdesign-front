@@ -13,26 +13,16 @@
         justify-content: center;
         align-items: center;
 
-        .firstWebdesign {
+        .firstWebdesign, .secondWebdesign {
             width: 100%;
             height: auto;
             display: flex;
             justify-content: center;
 
-            img {
-                margin: 10px;
+            .resizeImage{
+                height: auto;
             }
-        }
 
-        .secondWebdesign {
-            width: 100%;
-            height: auto;
-            display: flex;
-            justify-content: center;
-
-            img {
-                margin: 10px;
-            }
         }
 
         .webdesignResponsive {

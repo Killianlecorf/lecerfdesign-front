@@ -11,40 +11,13 @@
         display: flex;
         justify-content: center;
 
-        .firstColumn{
+        .firstColumn, .secondeColumn, .thirdColumn{
             flex: 1;
             height: auto;
             display: flex;
             flex-direction: column;
             align-items: center;
 
-            img{
-                margin: 10px;
-            }
-        }
-
-        .secondeColumn{
-            flex: 1;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            img{
-                margin: 10px;
-            }
-        }
-
-        .thirdColumn{
-            flex: 1;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            img{
-                margin: 10px;
-            }
         }
 
         .printedResponsiveImage{
