@@ -25,7 +25,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY_PORTABLE }}
           script: |
             cd docker
-            sudo rm -r lecerfdesign-front
+            sudo rm -r lecerfdesign-nextjs
             git clone git@github.com:Killianlecorf/lecerfdesign-front.git
             cd lecerfdesign-nextjs/lecerfdesign
             sudo docker-compose up --build -d
