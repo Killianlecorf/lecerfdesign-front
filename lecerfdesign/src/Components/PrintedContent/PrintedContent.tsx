@@ -1,22 +1,65 @@
 import React from 'react';
 import './_printedContent.scss'
 import Image from 'next/image';
+import CardImage from '@/Components/CardImage/CardImage';
 
 const PrintedContent = () => {
     return (
         <div className='printedContent'>
             <div className="PrintedImage">
                 <div className="firstColumn">
-                    <Image src="/Assets/Img/printed_1.jpg" width={277} height={336} alt='' />
-                    <Image src="/Assets/Img/printed_4.jpg" width={277} height={377} alt='' />
+                    <CardImage 
+                        LinkImage='/Assets/Img/printed_1.jpg' 
+                        WidthImage={277} 
+                        HeightImage={336} 
+                        Title='Kross-Officiel'
+                        Content='Conception d&apos;un album et de vinyle pour l&apos;artiste Kross_Officiel'
+                        AltText='' 
+                    />
+                    <CardImage 
+                        LinkImage='/Assets/Img/printed_4.jpg' 
+                        WidthImage={277} 
+                        HeightImage={377} 
+                        Title='Projet d&apos;étude'
+                        Content='Conception d&apos;une affiche promotionnel pour un projet d&apos;étude'
+                        AltText='' 
+                    />
                 </div>
                 <div className="secondeColumn">
-                    <Image src="/Assets/Img/printed_2.jpg" width={279} height={279} alt='' />
-                    <Image src="/Assets/Img/printed_5.jpg" width={279} height={390} alt='' />
+                    <CardImage 
+                        LinkImage='/Assets/Img/printed_2.jpg' 
+                        WidthImage={279} 
+                        HeightImage={279} 
+                        Title='Sushi Thai&apos;m'
+                        Content='Conception d&apos;un menue de restauration pour Sushi Thai&apos;m'
+                        AltText='' 
+                    />
+                    <CardImage 
+                        LinkImage='/Assets/Img/printed_5.jpg' 
+                        WidthImage={279} 
+                        HeightImage={390} 
+                        Title='FFGYM'
+                        Content='Conception d&apos;une affiche promotionnel pour un championnat de Gym Interdepartemental PERFORMANCE'
+                        AltText='' 
+                    />
                 </div>
                 <div className="thirdColumn">
-                    <Image src="/Assets/Img/printed_3.jpg" width={277} height={387} alt='' />
-                    <Image src="/Assets/Img/printed_6.jpg" width={277} height={300} alt='' />
+                    <CardImage 
+                        LinkImage='/Assets/Img/printed_3.jpg' 
+                        WidthImage={279} 
+                        HeightImage={387} 
+                        Title='LECERF Design'
+                        Content='Conception d&apos;une affiche promotionnel pour LECERF Design'
+                        AltText='' 
+                    />
+                    <CardImage 
+                        LinkImage='/Assets/Img/printed_6.jpg' 
+                        WidthImage={277} 
+                        HeightImage={300} 
+                        Title='FFGYM'
+                        Content='Conception d&apos;une affiche promotionnel pour un championnat régional Artistique Féminine'
+                        AltText='' 
+                    />
                 </div>
                 <div className="printedResponsiveImage">
                     <Image src="/Assets/Img/printed_1_responsive.jpg" width={240} height={114} alt='' />
