@@ -111,11 +111,15 @@
         flex: 1/2;
         width: 60%;
         height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         ul{
             display: flex;
             justify-content: center;
             align-items: center;
+            width: 75%;
 
             li{
                 margin-left: 15px;
