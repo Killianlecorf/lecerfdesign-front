@@ -7,8 +7,20 @@ const LogoImageContent = () => {
         <div className='LogoImageContent'>
             <div className="imageContent">
                 <div className="logoContent1">
-                    <Image src="/Assets/Img/logo_1.jpg" width={277} height={307} alt='logo Noble Site' />
-                    <Image src="/Assets/Img/logo_4.jpg" width={277} height={336} alt='Mock-up'/>
+                    <div className='card'>
+                        <Image src="/Assets/Img/logo_1.jpg" width={277} height={307} alt='logo Noble Site' />
+                        <div className="hoverImage">
+                            <div className="sizeCard">
+                                <h2>Noble site</h2>
+                                <p>Création d'un logo pour une entreprise de marketing digitale Noble Site </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <Image src="/Assets/Img/logo_4.jpg" width={277} height={336} alt='Mock-up'/>
+                        <div className="hoverImage">
+                        </div>
+                    </div>
                     <Image src="/Assets/Img/logo_7.jpg" width={277} height={336} alt='Mock-up'/>
                     <Image src="/Assets/Img/logo_10.jpg" width={277} height={336} alt='Mock-up' />
                 </div>
