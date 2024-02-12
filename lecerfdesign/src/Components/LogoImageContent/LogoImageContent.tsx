@@ -46,9 +46,9 @@ const LogoImageContent = () => {
                         LinkImage='/Assets/Img/logo_2.jpg' 
                         WidthImage={277} 
                         HeightImage={279} 
-                        Title='TutoDuel Académie'
-                        Content='Création de l&apos;identité visuelle de l&apos;entreprise TutoDuel Académie'
-                        AltText='logo TutoDuel Académie' 
+                        Title='O&apos;Zoo'
+                        Content='Création de l&apos;identité visuelle de l&apos;entreprise O&apos;Zoo'
+                        AltText='logo O&apos;Zoo' 
                     />
                     <CardLogo 
                         LinkImage='/Assets/Img/logo_5.jpg' 
@@ -90,21 +90,41 @@ const LogoImageContent = () => {
                         HeightImage={336} 
                         Title='HANKALA'
                         Content='Création de l&apos;identité visuelle de l&apos;entreprise Hankala'
-                        AltText='logo Sky Limit' 
+                        AltText='logo HANKALA' 
                     />
                 </div>
             </div>
             <div className="imageContentResponsive">
                 <Image src="/Assets/Img/logo_1_responsive.jpg" width={240} height={114} alt='logo Noble Site' />
+                <h2>Noble site</h2>
+                <p>Création de l&apos;identité visuelle de l&apos;entreprise Noble Site</p>
                 <Image src="/Assets/Img/logo_2_responsive.jpg" width={240} height={114} alt='Mock-up'/>
+                <h2>O&apos;Zoo</h2>
+                <p>Création de l&apos;identité visuelle de l&apos;entreprise O&apos;Zoo</p>
                 <Image src="/Assets/Img/logo_3_responsive.jpg" width={240} height={114} alt='Mock-up'/>
+                <h2>MUSCLE SHEEP</h2>
+                <p>Création de l&apos;identité visuelle Musle Sheep </p>
                 <Image src="/Assets/Img/logo_4_responsive.jpg" width={240} height={114} alt='Mock-up' />
+                <h2>SEIF DEIT</h2>
+                <p>Création de l&apos;identité visuelle de l&apos;entreprise SEIF DEIT</p>
                 <Image src="/Assets/Img/logo_5_responsive.jpg" width={240} height={114} alt='logo Noble Site' />
+                <h2>LECERF DESIGN</h2>
+                <p>Création de l&apos;identité visuelle de l&apos;entreprise LECERF Design</p>
                 <Image src="/Assets/Img/logo_6_responsive.jpg" width={240} height={114} alt='Mock-up'/>
+                <h2>Sky Limit</h2>
+                <p>Création de l&apos;identité visuelle de l&apos;entreprise Sky Limit</p>
                 <Image src="/Assets/Img/logo_7_responsive.jpg" width={240} height={114} alt='Mock-up'/>
+                <h2>100% CAFÉ</h2>
+                <p>Création de l&apos;identité visuelle de l&apos;entreprise 100% Café</p>
                 <Image src="/Assets/Img/logo_8_responsive.jpg" width={240} height={114} alt='Mock-up' />
+                <h2>Kross_Officiel</h2>
+                <p>Création de l&apos;identité visuelle de l&apos;entreprise Kross_Officiel</p>
                 <Image src="/Assets/Img/logo_9_responsive.jpg" width={240} height={114} alt='logo Noble Site' />
+                <h2>HANKALA</h2>
+                <p>Création de l&apos;identité visuelle de l&apos;entreprise Hankala</p>
                 <Image src="/Assets/Img/logo_10_responsive.jpg" width={240} height={114} alt='Mock-up'/>
+                <h2>TutoDuel Académie</h2>
+                <p>Création de l&apos;identité visuelle de l&apos;entreprise TutoDuel Académie</p>
             </div>
         </div>
     );
