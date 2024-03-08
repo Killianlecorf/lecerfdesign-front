@@ -1,5 +1,4 @@
 const express = require('express');
-const app = express();
 import { corsMiddleware } from '../middleware/cors.middleware';
 import { 
     sendMail

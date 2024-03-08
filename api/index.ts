@@ -9,9 +9,6 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 
-console.log(process.env.PORT);
-
-
 app.use(corsMiddleware);
 
 app.use(bodyParser.json());
@@ -19,7 +16,5 @@ app.use(bodyParser.json());
 app.use('/api/service', EmailRoute)
 
 app.listen(port, () => {
-    console.log(`Serveur en cours d'exécution sur http://localhost:${port}`);
+    console.log(`Serveur en cours d'exécution sur le port : ${port}`);
 });
-
-export {app}
