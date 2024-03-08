@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import cors from 'cors';
+import {corsMiddleware} from './src/middleware/cors.middleware';
 import EmailRoute from './src/Routes/mail.Routes';
 import dotenv from 'dotenv';
 
@@ -9,9 +9,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(cors({ 
-    origin: 'http://vps-3aa18acd.vps.ovh.net:3000' 
-}))
+app.use(corsMiddleware)
 
 app.use(bodyParser.json());
 
