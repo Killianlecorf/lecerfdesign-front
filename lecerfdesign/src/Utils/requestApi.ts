@@ -42,6 +42,6 @@ const request = async (url: string, method: string, bodyContent?: any): Promise<
     }
 };
 
-const path = 'http://localhost:5656/api';
+const path = 'http://vps-3aa18acd.vps.ovh.net:5656/api';
 
 export default request;
