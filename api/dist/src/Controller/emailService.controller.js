@@ -11,17 +11,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sendMail = void 0;
 const emailService_1 = require("../service/emailService");
-const ValidationEmail_1 = require("../Utils/ValidationEmail");
 const sendMail = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    const { to, subject, text } = req.body;
+    const { subject, text } = req.body;
     try {
-        if (!to || !subject || !text) {
-            throw new Error('Les champs "Email", "Objet" et "Corps du mail" sont obligatoires.');
+        if (!subject || !text) {
+            return res.status(400).send('Les champs "Email", "Objet" et "Corps du mail" sont obligatoires.');
         }
-        if (!(0, ValidationEmail_1.isValidEmail)(to)) {
-            throw new Error('L\'adresse e-mail saisis n\'est invalide.');
-        }
-        yield (0, emailService_1.sendEmail)({ to, subject, text });
+        yield (0, emailService_1.sendEmail)({ subject, text });
         res.status(200).json({ message: 'E-mail envoyé avec succès' });
     }
     catch (error) {

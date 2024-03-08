@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sendEmail = void 0;
 const nodemailer_1 = __importDefault(require("nodemailer"));
-const sendEmail = (_a) => __awaiter(void 0, [_a], void 0, function* ({ to, subject, text }) {
+const sendEmail = (_a) => __awaiter(void 0, [_a], void 0, function* ({ subject, text }) {
     const transporter = nodemailer_1.default.createTransport({
         service: 'Gmail',
         auth: {
@@ -24,7 +24,7 @@ const sendEmail = (_a) => __awaiter(void 0, [_a], void 0, function* ({ to, subje
     });
     const mailOptions = {
         from: process.env.GMAIL_USER,
-        to: to,
+        to: process.env.GMAIL_USER,
         subject: subject,
         text: text,
     };

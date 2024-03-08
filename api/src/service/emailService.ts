@@ -8,12 +8,11 @@ interface MailOptions {
 }
 
 interface ISendMail {
-  to: string;
   subject: string;
   text: string;
 }
 
-export const sendEmail = async ({ to, subject, text }: ISendMail) => {
+export const sendEmail = async ({ subject, text }: ISendMail) => {
   const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
@@ -24,7 +23,7 @@ export const sendEmail = async ({ to, subject, text }: ISendMail) => {
 
   const mailOptions: MailOptions = {
     from: process.env.GMAIL_USER as string,
-    to: to,
+    to: process.env.GMAIL_USER as string,
     subject: subject,
     text: text,
   };
