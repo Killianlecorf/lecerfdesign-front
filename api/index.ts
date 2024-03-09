@@ -19,3 +19,4 @@ app.use('/api/service', EmailRoute)
 app.listen(port, () => {
     console.log(`Serveur en cours d'exécution sur le port : ${port}`);
 });
+
