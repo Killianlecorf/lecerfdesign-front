@@ -15,7 +15,7 @@ const sendMail = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const { subject, text } = req.body;
     try {
         if (!subject || !text) {
-            return res.status(400).send('Les champs "Email", "Objet" et "Corps du mail" sont obligatoires.');
+            return res.status(400).send('Les champs "Objet" et "Corps du mail" sont obligatoires.');
         }
         yield (0, emailService_1.sendEmail)({ subject, text });
         res.status(200).json({ message: 'E-mail envoyé avec succès' });
