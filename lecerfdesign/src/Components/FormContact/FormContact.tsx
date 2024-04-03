@@ -124,7 +124,7 @@ const FormContact = () => {
                                 <input type="checkbox" name="checkbox" onChange={handleChange} checked={formData.checkbox} className='checkboxInput' />
                                 J&apos;accepte que ces données soient recueillies par LECERF DESIGN afin de prendre mon contact pour répondre à mes questions ou à ma candidature. Pour révoquer ce consentement, veuillez consulter la 
                                 <span style={{color: "var(--Main-color)"}}>
-                                    <Link href="/privacypolicy">politique de confidentialité.*</Link>
+                                    <Link href="/privacypolicy"> politique de confidentialité.*</Link>
                                 </span>
                             </label>
                         </div>
