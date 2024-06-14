@@ -25,6 +25,12 @@ interface Mail{
     text:string;
 }
 
+interface InformationsForm{
+    address: string;
+    numero: string;
+    email: string;
+}
+
 const FormContact = () => {
     const [errorMessage, setErrorMessage] = useState<string>('')
     const [formData, setFormData] = useState<FormData>({
@@ -36,6 +42,11 @@ const FormContact = () => {
         text: '',
         checkbox: false
     });
+    const InformationForm: InformationsForm = {
+        address: "63 Rue Louis Poterat, Rouen",
+        numero: "+33 6 16 63 07 49",
+        email: "lecerf.design@gmail.com"
+    }
 
     const handleChange = (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const nameInput = event.target.name;
@@ -103,18 +114,18 @@ const FormContact = () => {
                             <h2>ROUEN</h2>
                         </div>
                         <div className="localisationContent">
-                            <FaLocationDot /> <div className=""><p>63 Rue Louis Poterat, Rouen</p></div>
+                            <FaLocationDot /> <div className=""><p>{InformationForm.address}</p></div>
                         </div>
                         <div className="localisationContent">
-                            <BsFillTelephoneFill /><div className=""><p>+33 16 63 07 49</p></div>
+                            <BsFillTelephoneFill /><div className=""><p>{InformationForm.numero}</p></div>
                         </div>
                         <div className="localisationContent">
-                            <GrMail /><div className=""><p>thomas.loupkas@gmail.com</p></div>
+                            <GrMail /><div className=""><p>{InformationForm.email}</p></div>
                         </div>
                     </div>
                     <div className="FormulaireContact">
-                        <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} placeholder='Prénom*' required/>
-                        <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} placeholder='Nom*' required/>
+                        <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} placeholder='Prénom' />
+                        <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} placeholder='Nom' />
                         <input type="tel" name="phone" value={formData.phone} onChange={handleChange} placeholder='Téléphone' />
                         <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder='Adresse mail*' required/>
                         <input type="text" name="subject" value={formData.subject} onChange={handleChange} className='subjectInput' placeholder='Sujet*' required/>
