@@ -25,11 +25,13 @@
             h2{
                 color: var(--White-color);
                 font-family: var(--Bold-font);
+                cursor: default;
             }
 
             p{
                 font-family: var(--Light-font);
                 color: var(--White-color);
+                cursor: default;
             }
         }
     }
