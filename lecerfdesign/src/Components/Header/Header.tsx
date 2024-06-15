@@ -7,6 +7,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import ModalNavigation from '../ModalNavigation/ModalNavigation';
 import Button from '../UI-kit/Button/Button';
 import Link from 'next/link';
+import { IoMdClose } from "react-icons/io";
 
 interface HeaderProps {
     currentPath?: string;
@@ -67,7 +68,9 @@ const Header:React.FC<HeaderProps> = ({currentPath}) => {
                     </div>
                     <div className="BurgerModaleHeader">
                         <div onClick={changeOpenModal}>
-                            <RxHamburgerMenu className={`burger ${isOpenNavModal ? 'active' : ''}`} />
+                            {
+                                !isOpenNavModal ? <RxHamburgerMenu className={`burger`} /> : <IoMdClose className={`burger`}/>
+                            }
                         </div>
                     </div>
                 </div>
