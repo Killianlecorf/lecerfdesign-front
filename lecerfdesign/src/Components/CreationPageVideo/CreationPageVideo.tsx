@@ -1,5 +1,6 @@
 import React from 'react';
 import './CreationPageVideo.scss'
+import VideoCreations from '../VideoCreations/VideoCreations';
 
 const CreationPageVideo = () => {
     return (
@@ -8,6 +9,7 @@ const CreationPageVideo = () => {
                 <h1>Plongez vous dans un monde créatif unique !</h1>
                 <p>Découvrez nos derniers projets vidéo !</p>
             </div>
+            <VideoCreations />
         </div>
     );
 };
