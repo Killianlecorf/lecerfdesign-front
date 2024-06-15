@@ -7,14 +7,16 @@ interface VideoCreationComponentsProps {
     imageSrc: StaticImageData;
     altText?: string;
     textContent: string;
+    secondTextContent?: string;
 }
 
-const VideoCreationComponents: React.FC<VideoCreationComponentsProps> = ({ imageSrc, altText = 'Video creation image', textContent }) => {
+const VideoCreationComponents: React.FC<VideoCreationComponentsProps> = ({ imageSrc, altText = 'Video creation image', textContent, secondTextContent }) => {
     return (
         <div className='VideoCreationComponents'>
             <Image src={imageSrc} alt={altText} />
             <div className="textContent">
                 <p>{textContent}</p>
+                <p>{secondTextContent}</p>
             </div>
             <div className="buttonContent">
                 <Button ButtonClassName='BigButtonArrow' ButtonContent='Voir la vidéo'/>

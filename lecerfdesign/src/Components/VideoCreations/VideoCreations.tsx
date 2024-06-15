@@ -8,9 +8,9 @@ const VideoCreations = () => {
     return (
         <div className='VideoCreation'>
             <div className="videoContentIcon">
-                <VideoCreationComponents imageSrc={image} textContent=''/>
-                <VideoCreationComponents imageSrc={image} textContent=''/>
-                <VideoCreationComponents imageSrc={image} textContent=''/>
+                <VideoCreationComponents imageSrc={image} textContent='Restos du Coeur de la Seine-Normandie Rouen'/>
+                <VideoCreationComponents imageSrc={image} textContent='Club de Rugby RNR' secondTextContent="Shooting nouveau maillot"/>
+                <VideoCreationComponents imageSrc={image} textContent='EXPATMUMCOMPANY'secondTextContent="Interview"/>
             </div>
             <div className="CtoACreation">
                 <Button ButtonClassName='BigButtonArrow' ButtonContent='Créez votre vidéo ici' />
