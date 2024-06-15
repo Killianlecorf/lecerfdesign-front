@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
             <div className="CopyContent">
                 <div className="copyText">
-                    <p>Copyrights 2023 Lecerf Design. / Tous droits réservés</p>
+                    <p>Copyrights 2024 Lecerf Design. / Tous droits réservés</p>
                 </div>
                 <div className="mentionLegal">
                     <ul>
