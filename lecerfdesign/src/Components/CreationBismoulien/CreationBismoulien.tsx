@@ -21,6 +21,7 @@ const CreationBismoulien = ({}) => {
                     <BismoulienIcon Bismoulien={Isineuf} BismoulienName='Isineuf'/>
                 </div>
             </div>
+            <div className="separationLine"> </div>
         </div>
     );
 };
