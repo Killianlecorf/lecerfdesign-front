@@ -47,3 +47,58 @@
         }
     }
 }
+
+
+@media (max-width: 950px) {
+
+    .VideoCreation{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        .videoContentIcon{
+            width: 75%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .CtoACreation{
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            button{
+                width: 250px;
+    
+                &:hover{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .2s ease;
+            
+                    span{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-left: 200px;
+                        opacity: 1;
+                        transition: .2s ease;
+                        margin-left: 5px;
+                    }
+            
+                    p{
+                        padding-right: 15px;
+                        transition: .2s ease;
+                    }
+                }
+            }
+        }
+    }
+    
+}

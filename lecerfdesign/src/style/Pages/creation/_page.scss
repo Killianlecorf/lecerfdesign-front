@@ -1,11 +1,10 @@
 .banniereCreation{
-    width: 100%;
-    height: auto;
-
-    img{
-        width: 100%;
-        height: auto;  
-    }
+    width: 100vw;
+    height: 435px;
+    background-image: url("/Assets/Img/bannierecreation.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .otherCreation{
@@ -35,4 +34,50 @@
         justify-content: center;
         margin-top: 150px;
     }
+}
+
+
+@media (max-width: 950px) {
+
+    .banniereCreation{
+        width: 100vw;
+        height: 180px;
+        background-image: url("/Assets/Img/ResponsiveBanniere.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+
+.otherCreation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+
+    .titleOtherCreation{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+
+        h2{
+            font-size: 36px;
+            width: 90%;
+        }
+    }
+
+    .iconsOtherCreation{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+}
 }

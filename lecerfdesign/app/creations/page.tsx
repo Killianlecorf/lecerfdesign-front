@@ -13,7 +13,6 @@ const Creations = () => {
             <Header currentPath="/creations"/>
             <CreationPageVideo />
             <div className="banniereCreation">
-                <Image src={banniere} alt='bannière de design' />
             </div>
             <CreationBismoulien />
             <div className="otherCreation">
