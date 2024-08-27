@@ -13,7 +13,9 @@ interface VideoCreationComponentsProps {
 const VideoCreationComponents: React.FC<VideoCreationComponentsProps> = ({ imageSrc, altText = 'Video creation image', textContent, secondTextContent }) => {
     return (
         <div className='VideoCreationComponents'>
-            <Image src={imageSrc} alt={altText} />
+            <div className="imgCreation">
+                    <Image src={imageSrc} alt={altText} />
+            </div>
             <div className="textContent">
                 <p>{textContent}</p>
                 <p>{secondTextContent}</p>
