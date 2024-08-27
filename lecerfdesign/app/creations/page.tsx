@@ -2,8 +2,8 @@ import Footer from '@/Components/Footer/Footer';
 import Header from '@/Components/Header/Header';
 import React from 'react';
 import CreationPageVideo from "@/Components/CreationPageVideo/CreationPageVideo";
-import Image from 'next/image';
-import banniere from "../../public/Assets/Img/bannierecreation.svg";
+// import Image from 'next/image';
+// import banniere from "../../public/Assets/Img/bannierecreation.svg";
 import CreationBismoulien from '@/Components/CreationBismoulien/CreationBismoulien';
 import CardImage from '@/Components/CardImage/CardImage';
 
@@ -17,7 +17,7 @@ const Creations = () => {
             <CreationBismoulien />
             <div className="otherCreation">
                 <div className="titleOtherCreation">
-                    <h2>Découvrez d'autres créations uniques et variées, réalisées avec différentes techniques artistiques.</h2>
+                    <h2>Découvrez d&apos;autres créations uniques et variées, réalisées avec différentes techniques artistiques.</h2>
                 </div>
                 <div className="iconsOtherCreation">
                     <CardImage 
