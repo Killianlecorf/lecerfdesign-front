@@ -16,11 +16,11 @@ const CreationBismoulien = ({}) => {
             <div className="BismoulienIconsContent">
                 <div className="bismoulienContentIconsWrap">
                     <BismoulienIcon Bismoulien={loupkas} BismoulienName='Loupkas'/>
-                    <BismoulienIcon Bismoulien={luzrod} BismoulienName='Luzrod'/>
+                    <BismoulienIcon Bismoulien={luzrod} BismoulienName='Kayzzen'/>
                     <BismoulienIcon Bismoulien={kross} BismoulienName='Kross'/>
                     <BismoulienIcon Bismoulien={Akriuu} BismoulienName='Akriuu'/>
                     <BismoulienIcon Bismoulien={Isineuf} BismoulienName='Isineuf'/>
-                    <BismoulienIcon Bismoulien={Lama} BismoulienName='Lama'/>
+                    <BismoulienIcon Bismoulien={Lama} BismoulienName='Luzrod'/>
                 </div>
             </div>
             <div className="separationLine"> </div>

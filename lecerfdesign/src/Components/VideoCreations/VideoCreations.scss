@@ -14,12 +14,13 @@
 
     .CtoACreation{
         width: 100%;
-        height: 40vh;
+        height: 20vh;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
 
         button{
+            margin-top: 35px;
             width: 250px;
 
             &:hover{
