@@ -11,9 +11,9 @@ const VideoCreations = () => {
     return (
         <div className='VideoCreation'>
             <div className="videoContentIcon">
-                <VideoCreationComponents imageSrc={videoTeste} textContent='Restau du Coeur de laSeine-Normandie Rouen' secondTextContent='En mars 2024, ce sont 99,2 tonnes de nourriture collectées en seulement 2 jours !' redirectionLink=''/>
-                <VideoCreationComponents imageSrc={videoRNR} textContent='Rouen Normandie Rugby RNR' secondTextContent="Découvrez les coulisses du shooting photo des nouveaux maillots du RNR !" redirectionLink=''/>
-                <VideoCreationComponents imageSrc={videoFooding} textContent='Studio 63 Rouen'secondTextContent="Visitez les coulisses d&apos;une séance photo de Fooding au Studio le 63 à Rouen !" redirectionLink=''/>
+                <VideoCreationComponents imageSrc={videoTeste} textContent='Restau du Coeur de la Seine-Normandie Rouen' secondTextContent='En mars 2024, ce sont 99,2 tonnes de nourriture collectées en seulement 2 jours !' redirectionLink='https://fb.watch/sIsl0cjfRv/'/>
+                <VideoCreationComponents imageSrc={videoRNR} textContent='Rouen Normandie Rugby RNR' secondTextContent="Découvrez les coulisses du shooting photo des nouveaux maillots du RNR !" redirectionLink='https://www.instagram.com/reel/C8rNjxksvwG/?igsh=MXN6MjR0aXhiaHI5Mw=='/>
+                <VideoCreationComponents imageSrc={videoFooding} textContent='Studio 63 Rouen'secondTextContent="Visitez les coulisses d&apos;une séance photo de Fooding au Studio le 63 à Rouen !" redirectionLink='https://www.instagram.com/reel/C8rJ_RkMUA4/?igsh=MWFpNDliYW9mcjN3OQ=='/>
             </div>
             <div className="CtoACreation">
                 <Link href='/contact'>
