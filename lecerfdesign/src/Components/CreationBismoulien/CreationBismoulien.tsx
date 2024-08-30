@@ -6,6 +6,7 @@ import luzrod from "../../../public/Assets/Img/Luzrod.svg";
 import kross from "../../../public/Assets/Img/Lewis_Kross.svg";
 import Akriuu from "../../../public/Assets/Img/Akriuu.svg";
 import Isineuf from "../../../public/Assets/Img/Isineuf.svg";
+import Lama from "../../../public/Assets/Img/Lama.svg";
 
 const CreationBismoulien = ({}) => {
     return (
@@ -15,10 +16,11 @@ const CreationBismoulien = ({}) => {
             <div className="BismoulienIconsContent">
                 <div className="bismoulienContentIconsWrap">
                     <BismoulienIcon Bismoulien={loupkas} BismoulienName='Loupkas'/>
-                    <BismoulienIcon Bismoulien={luzrod} BismoulienName='Luzrod'/>
+                    <BismoulienIcon Bismoulien={luzrod} BismoulienName='Kayzzen'/>
                     <BismoulienIcon Bismoulien={kross} BismoulienName='Kross'/>
                     <BismoulienIcon Bismoulien={Akriuu} BismoulienName='Akriuu'/>
                     <BismoulienIcon Bismoulien={Isineuf} BismoulienName='Isineuf'/>
+                    <BismoulienIcon Bismoulien={Lama} BismoulienName='Luzrod'/>
                 </div>
             </div>
             <div className="separationLine"> </div>
