@@ -9,7 +9,7 @@ const LogoImageContent = () => {
             <div className="imageContent">
                 <div className="logoContent1">
                     <CardLogo 
-                        LinkImage='/Assets/Img/logo_12.svg' 
+                        LinkImage='/Assets/Img/logo_12.png' 
                         WidthImage={277} 
                         HeightImage={276} 
                         Title='BBFée&apos;Stival'
@@ -43,7 +43,7 @@ const LogoImageContent = () => {
                 </div>
                 <div className="logoContent2">
                     <CardLogo 
-                        LinkImage='/Assets/Img/logo_11.svg' 
+                        LinkImage='/Assets/Img/logo_11.png' 
                         WidthImage={277} 
                         HeightImage={335} 
                         Title='Loupkas'
