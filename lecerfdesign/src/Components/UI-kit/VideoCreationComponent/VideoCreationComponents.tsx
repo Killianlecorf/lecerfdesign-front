@@ -3,7 +3,7 @@ import './VideoCreationComponents.scss';
 import Image, { StaticImageData } from 'next/image';
 import Button from '../Button/Button';
 import Link from 'next/link';
-import { FaCaretRight } from "react-icons/fa";
+import { TbTriangleFilled } from "react-icons/tb";
 
 interface VideoCreationComponentsProps {
     imageSrc: StaticImageData;
@@ -22,7 +22,7 @@ const VideoCreationComponents: React.FC<VideoCreationComponentsProps> = ({ image
                         <a target="_blank" rel="noopener noreferrer">
                             <div className="backgroundImage">
                                 <div className="overlay"></div>
-                                <FaCaretRight className="icon" />
+                                <TbTriangleFilled  className="icon" />
                             </div>
                         </a>
                     </Link>
