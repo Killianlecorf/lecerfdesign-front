@@ -10,21 +10,21 @@ const WebdesignContent = () => {
                     <div className="firstWebdesign">
                         <div className="resizeImage">
                             <CardLogo 
-                                LinkImage='/Assets/Img/webdesign_1.jpg' 
+                                LinkImage='/Assets/Img/web_cecile.png' 
                                 WidthImage={277} 
                                 HeightImage={234} 
-                                Title='Diva Pasta'
-                                Content='Conception d&apos;un site web pour le restaurant Diva Pasta (projet d&apos;étude)'
+                                Title='Jolie Brin de plume'
+                                Content='Conception d&apos;un site web carte de visite pour Jolie Brin de plume'
                                 AltText='' 
                             />
                         </div>
                         <div className="resizeImage">
                             <CardLogo 
-                                LinkImage='/Assets/Img/webdesign_2.jpg' 
+                                LinkImage='/Assets/Img/webdesign_1.jpg'
                                 WidthImage={277} 
                                 HeightImage={287} 
-                                Title='HERMES MARKETING'
-                                Content='Conception d&apos;un site web tutoriel sur le marketing pour Hermès Marketing'
+                                Title='Diva Pasta'
+                                Content='Conception d&apos;un site web pour le restaurant Diva Pasta'
                                 AltText='' 
                             />
                         </div>
