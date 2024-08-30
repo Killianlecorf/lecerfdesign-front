@@ -19,12 +19,12 @@ const VideoCreationComponents: React.FC<VideoCreationComponentsProps> = ({ image
                     <Image src={imageSrc} alt={altText} />
             </div>
             <div className="textContent">
-                <p>{textContent}</p>
-                <p>{secondTextContent}</p>
-            </div>
+                <p className='principalText'>{textContent}</p>
+                <p className='secondaryText'>{secondTextContent}</p>
+            </div> 
             <div className="buttonContent">
                 <Link href={redirectionLink}>
-                    <Button ButtonClassName='BigButtonArrow' ButtonContent='Voir la vidéo'/>
+                    <Button ButtonClassName='BigButtonArrow' ButtonContent='Voir le site'/>
                 </Link>
             </div>
         </div>
