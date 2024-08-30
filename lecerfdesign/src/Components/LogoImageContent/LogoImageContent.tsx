@@ -9,44 +9,18 @@ const LogoImageContent = () => {
             <div className="imageContent">
                 <div className="logoContent1">
                     <CardLogo 
-                        LinkImage='/Assets/Img/logo_1.jpg' 
+                        LinkImage='/Assets/Img/logo_12.svg' 
                         WidthImage={277} 
-                        HeightImage={307} 
-                        Title='Noble site'
-                        Content='Création de l&apos;identité visuelle de l&apos;entreprise Noble Site'
-                        AltText='logo Noble Site' 
+                        HeightImage={276} 
+                        Title='BBFée&apos;Stival'
+                        Content='Création de l&apos;identité visuelle BBFée&apos;Stival'
+                        AltText='logo BBFée' 
                     />
-                    <CardLogo 
-                        LinkImage='/Assets/Img/logo_4.jpg' 
-                        WidthImage={277} 
-                        HeightImage={336} 
-                        Title='SEIF DEIT'
-                        Content='Création de l&apos;identité visuelle de l&apos;entreprise SEIF DEIT '
-                        AltText='logo SEIF DEIT' 
-                    />
-                    <CardLogo 
-                        LinkImage='/Assets/Img/logo_7.jpg' 
-                        WidthImage={277} 
-                        HeightImage={336} 
-                        Title='100% CAFÉ'
-                        Content='Création de l&apos;identité visuelle de l&apos;entreprise 100% Café'
-                        AltText='logo 100% CAFE' 
-                    />
-                    <CardLogo 
-                        LinkImage='/Assets/Img/logo_10.jpg' 
-                        WidthImage={277} 
-                        HeightImage={336} 
-                        Title='TutoDuel Académie'
-                        Content='Création de l&apos;identité visuelle de l&apos;entreprise TutoDuel Académie'
-                        AltText='logo TutoDuel Académie' 
-                    />
-                </div>
-                <div className="logoContent2">
                     <CardLogo 
                         LinkImage='/Assets/Img/logo_2.jpg' 
                         WidthImage={277} 
                         HeightImage={279} 
-                        Title='O&apos;Zoo'
+                        Title='Panda'
                         Content='Création de l&apos;identité visuelle de l&apos;entreprise O&apos;Zoo'
                         AltText='logo O&apos;Zoo' 
                     />
@@ -56,7 +30,7 @@ const LogoImageContent = () => {
                         HeightImage={438} 
                         Title='LECERF DESIGN'
                         Content='Création de l&apos;identité visuelle de l&apos;entreprise LECERF Design'
-                        AltText='logo LECERF Design' 
+                        AltText='logo SEIF DEIT' 
                     />
                     <CardLogo 
                         LinkImage='/Assets/Img/logo_8.jpg' 
@@ -67,30 +41,72 @@ const LogoImageContent = () => {
                         AltText='logo Kross_Officiel' 
                     />
                 </div>
-                <div className="logoContent3">
+                <div className="logoContent2">
+                    <CardLogo 
+                        LinkImage='/Assets/Img/logo_11.svg' 
+                        WidthImage={277} 
+                        HeightImage={335} 
+                        Title='Loupkas'
+                        Content='Création de l&apos;identité visuelle Loupkas'
+                        AltText='logo Loupkas' 
+                    />
                     <CardLogo 
                         LinkImage='/Assets/Img/logo_3.jpg' 
                         WidthImage={277} 
                         HeightImage={440} 
                         Title='MUSCLE SHEEP'
                         Content='Création de l&apos;identité visuelle Musle Sheep'
-                        AltText='logo Musle Sheep' 
+                        AltText='logo MUSCLE SHEEP' 
                     />
                     <CardLogo 
                         LinkImage='/Assets/Img/logo_6.jpg' 
                         WidthImage={277} 
                         HeightImage={336} 
                         Title='Sky Limit'
-                        Content='Création de l&apos;identité visuelle de l&apos;entreprise Sky Limit'
+                        Content='Création de l&apos;identité visuelle Sky Limit'
                         AltText='logo Sky Limit' 
                     />
                     <CardLogo 
                         LinkImage='/Assets/Img/logo_9.jpg' 
-                        WidthImage={277} 
+                        WidthImage={278} 
                         HeightImage={336} 
                         Title='HANKALA'
-                        Content='Création de l&apos;identité visuelle de l&apos;entreprise Hankala'
+                        Content='Création de l&apos;identité visuelle Hankala'
                         AltText='logo HANKALA' 
+                    />
+                </div>
+                <div className="logoContent3">
+                    <CardLogo 
+                        LinkImage='/Assets/Img/logo_1.jpg' 
+                        WidthImage={277} 
+                        HeightImage={307} 
+                        Title='Noble Site'
+                        Content='Création de l&apos;identité visuelle de l&apos;entreprise Noble Site'
+                        AltText='logo Noble Site' 
+                    />
+                    <CardLogo 
+                        LinkImage='/Assets/Img/logo_4.jpg' 
+                        WidthImage={278} 
+                        HeightImage={336} 
+                        Title='SEIF DEIT'
+                        Content='Création de l&apos;identité visuelle de l&apos;entreprise SEIF DEIT'
+                        AltText='logo SEIF DEIT' 
+                    />
+                    <CardLogo 
+                        LinkImage='/Assets/Img/logo_7.jpg' 
+                        WidthImage={277} 
+                        HeightImage={336} 
+                        Title='100% CAFÉ'
+                        Content='Création de l&apos;identité visuelle 100% Café'
+                        AltText='logo 100% CAFÉ' 
+                    />
+                    <CardLogo 
+                        LinkImage='/Assets/Img/logo_10.jpg' 
+                        WidthImage={277} 
+                        HeightImage={336} 
+                        Title='TutoDuel Académie'
+                        Content='Création de l&apos;identité visuelle TutoDuel Académie'
+                        AltText='logo TutoDuel Académie' 
                     />
                 </div>
             </div>
