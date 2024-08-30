@@ -9,6 +9,14 @@ const PrintedContent = () => {
             <div className="PrintedImage">
                 <div className="firstColumn">
                     <CardImage 
+                        LinkImage='/Assets/Img/affiche_feestivale.png' 
+                        WidthImage={277} 
+                        HeightImage={320} 
+                        Title='BBfée&apos;Stival'
+                        Content='Conception d&apos;une affiche pour le festival BBFée&apos;Stival'
+                        AltText='' 
+                    />
+                    <CardImage 
                         LinkImage='/Assets/Img/printed_1.jpg' 
                         WidthImage={277} 
                         HeightImage={336} 
@@ -27,6 +35,14 @@ const PrintedContent = () => {
                 </div>
                 <div className="secondeColumn">
                     <CardImage 
+                        LinkImage='/Assets/Img/carte_visite.png' 
+                        WidthImage={279} 
+                        HeightImage={205} 
+                        Title='Studio 63 Rouen'
+                        Content='Conception d&apos;une carte de visite pour le Studio 63 Rouen'
+                        AltText='' 
+                    />
+                    <CardImage 
                         LinkImage='/Assets/Img/printed_2.jpg' 
                         WidthImage={279} 
                         HeightImage={279} 
@@ -44,6 +60,14 @@ const PrintedContent = () => {
                     />
                 </div>
                 <div className="thirdColumn">
+                    <CardImage 
+                        LinkImage='/Assets/Img/carte_lecerf.png' 
+                        WidthImage={279} 
+                        HeightImage={209} 
+                        Title='LECERF Design'
+                        Content='Conception d&apos;une carte de visite pour l&apos;entreprise Lecerf Design'
+                        AltText='' 
+                    />
                     <CardImage 
                         LinkImage='/Assets/Img/printed_3.jpg' 
                         WidthImage={279} 

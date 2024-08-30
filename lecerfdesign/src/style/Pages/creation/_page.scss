@@ -12,7 +12,7 @@
     height: auto;
     display: flex;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 
     .titleOtherCreation{
         width: 80%;
@@ -23,6 +23,7 @@
         margin-top: 100px;
 
         h2{
+            width: 80%;
             font-size: 36px;
         }
     }
@@ -67,7 +68,7 @@
 
         h2{
             font-size: 36px;
-            width: 90%;
+            width: 80%;
         }
     }
 
