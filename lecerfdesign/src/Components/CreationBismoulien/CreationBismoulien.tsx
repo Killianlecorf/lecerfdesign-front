@@ -3,7 +3,7 @@ import "./CreationBismoulien.scss";
 import BismoulienIcon from '../BismoulienIcon/BismoulienIcon';
 import loupkas from "../../../public/Assets/Img/loupkas.svg";
 import luzrod from "../../../public/Assets/Img/Luzrod.svg";
-import kross from "../../../public/Assets/Img/Lewis_Kross.png";
+import kross from "../../../public/Assets/Img/Lewis_Kross.svg";
 import Akriuu from "../../../public/Assets/Img/Akriuu.svg";
 import Isineuf from "../../../public/Assets/Img/Isineuf.svg";
 
