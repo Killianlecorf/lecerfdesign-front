@@ -86,6 +86,15 @@ const PrintedContent = () => {
                     />
                 </div>
                 <div className="printedResponsiveImage">
+                    <Image src="/Assets/Img/feestivale_responsive.png" width={240} height={114} alt='' />
+                    <h2>BBfée&apos;Stival</h2>
+                    <p>Conception d&apos;une affiche pour le festival BBFée&apos;Stival</p>
+                    <Image src="/Assets/Img/visitecard_responsive.png" width={240} height={114} alt='' />
+                    <h2>Studio 63 Rouen</h2>
+                    <p>Conception d&apos;une carte de visite pour le Studio 63 Rouen</p>
+                    <Image src="/Assets/Img/visitecard_lecerf_responsive.png" width={240} height={114} alt='' />
+                    <h2>LECERF Design</h2>
+                    <p>Conception d&apos;une carte de visite pour l&apos;entreprise Lecerf Design</p>
                     <Image src="/Assets/Img/printed_1_responsive.jpg" width={240} height={114} alt='' />
                     <h2>Kross-Officiel</h2>
                     <p>Conception d&apos;un album et de vinyle pour l&apos;artiste Kross_Officiel</p>

@@ -62,12 +62,12 @@ const WebdesignContent = () => {
                         </div>
                     </div> 
                     <div className="webdesignResponsive">
+                        <Image src="/Assets/Img/webdesign_2_responsive.png" width={240} height={114} alt='' />
+                        <h2>Jolie Brin de plume</h2>
+                        <p>Conception d&apos;un site web carte de visite pour Jolie Brin de plume</p>
                         <Image src="/Assets/Img/webdesign_1_responsive.jpg" width={240} height={114} alt='' />
                         <h2>Diva Pasta</h2>
                         <p>Conception d&apos;un site web pour le restaurant Diva Pasta (projet d&apos;étude)</p>
-                        <Image src="/Assets/Img/webdesign_2_responsive.jpg" width={240} height={114} alt='' />
-                        <h2>HERMES MARKETING</h2>
-                        <p>Conception d&apos;un site web tutoriel sur le marketing pour Hermès Marketing</p>
                         <Image src="/Assets/Img/webdesign_3_responsive.jpg" width={240} height={114} alt='' />
                         <h2>ELEC PRO RENOV</h2>
                         <p>Conception d&apos;un site web pour l&apos;entreprise Elec Pro Rénov</p>
