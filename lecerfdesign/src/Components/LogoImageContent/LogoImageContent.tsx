@@ -111,6 +111,12 @@ const LogoImageContent = () => {
                 </div>
             </div>
             <div className="imageContentResponsive">
+                <Image src="/Assets/Img/logo_12_responsive.png" width={240} height={114} alt='logo Noble Site' />
+                <h2>BBFée&apos;Stival</h2>
+                <p>Création de l&apos;identité visuelle BBFée&apos;Stival</p>
+                <Image src="/Assets/Img/logo_11_responsive.png" width={240} height={114} alt='logo Noble Site' />
+                <h2>Loupkas</h2>
+                <p>Création de l&apos;identité visuelle Loupkas</p>
                 <Image src="/Assets/Img/logo_1_responsive.jpg" width={240} height={114} alt='logo Noble Site' />
                 <h2>Noble site</h2>
                 <p>Création de l&apos;identité visuelle de l&apos;entreprise Noble Site</p>
