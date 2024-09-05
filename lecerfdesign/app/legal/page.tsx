@@ -7,9 +7,7 @@ const legal = () => {
 
     const informationLegal = {
         NumeroSiret : 425136548,
-        emailPro : "lecerf-design@gmail.com",
-        EmailSEA : "barthouxw9@gmail.com",
-        SiteSEA : "noble-site.fr",
+        emailPro : "lecerf.design@gmail.com"
     }
 
     return (
