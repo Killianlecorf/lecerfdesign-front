@@ -28,7 +28,7 @@ jobs:
             cd www
             sudo rm -r lecerfdesign-front
             git clone git@github.com:Killianlecorf/lecerfdesign-front.git
-            cd www/lecerfdesign-front/lecerfdesign
+            cd lecerfdesign-front/lecerfdesign
             sudo docker compose up --build -d
             cd ../api
             sudo docker compose up --build -d
