@@ -24,7 +24,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY_PORTABLE }}
           script: |
-            yes |docker system prune
+            yes | docker system prune
             cd www
             sudo rm -r lecerfdesign-front
             git clone https://github.com/Killianlecorf/lecerfdesign-front.git
