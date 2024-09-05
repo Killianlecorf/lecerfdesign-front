@@ -21,7 +21,7 @@ export default function Contact() {
             </div>
 
             <div className="titleContact">
-                <p>NOUS TROUVE</p>
+                <p>NOUS TROUVER</p>
                 <div className="decorationTextBar"> </div>
             </div>
             <FormContact />
