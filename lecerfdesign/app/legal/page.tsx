@@ -8,7 +8,6 @@ const legal = () => {
     const informationLegal = {
         NumeroSiret : 425136548,
         emailPro : "lecerf-design@gmail.com",
-        NumeroSEA : "06 00 00 00 00",
         EmailSEA : "barthouxw9@gmail.com",
         SiteSEA : "noble-site.fr",
     }
@@ -30,13 +29,7 @@ const legal = () => {
                     <p>LECERF DESIGN - Graphiste</p>
                     <p>06 16 63  07 49 - {informationLegal.emailPro}</p>
                     <h2>Développement</h2>
-                    <p>O&apos;ZOO - Développeur indépandant</p>
-                    <p>06 18 68 57 23 - o-zoo@gmail.com</p>
-                    <p>O&apos;zoo.fr</p>
-                    <h2>SEA</h2>
-                    <p>NOBLE SITE - Consultant SEA</p>
-                    <p>{informationLegal.NumeroSEA} - {informationLegal.EmailSEA}</p>
-                    <p>{informationLegal.SiteSEA}</p>
+                    <p>Killian Lecorf - Développeur</p>
                     <h2>Photographie</h2>
                     <p>STUDIO LE 63 - studio photo-vidéo</p>
                     <p>06 85 58 34 90 - andreroques@gmail.com</p>
