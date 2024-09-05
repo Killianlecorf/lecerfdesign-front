@@ -70,7 +70,7 @@ const FormContact = () => {
             text: `NOM : ${formData.firstName} - ${formData.lastName} \nNuméro de téléphone : ${formData.phone}\nEmail : ${formData.email}\n\n${formData.text}`
         }
 
-        if (!formData.email || !formData.firstName || !formData.lastName|| !formData.subject || !formData.text) {
+        if (!formData.email || !formData.subject || !formData.text) {
             return setErrorMessage('Veuillez remplir les champs obligatoires')
         }
 
