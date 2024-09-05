@@ -17,7 +17,7 @@ jobs:
           ref: main 
 
       - name: Déploiement sur le VPS
-        if: success() && github.ref == 'refs/heads/maine'
+        if: success() && github.ref == 'refs/heads/main'
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_IP }}
@@ -25,10 +25,10 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY_PORTABLE }}
           script: |
             yes |docker system prune
-            cd docker
+            cd www
             sudo rm -r lecerfdesign-front
             git clone git@github.com:Killianlecorf/lecerfdesign-front.git
-            cd lecerfdesign-front/lecerfdesign
+            cd www/lecerfdesign-front/lecerfdesign
             sudo docker compose up --build -d
             cd ../api
             sudo docker compose up --build -d
