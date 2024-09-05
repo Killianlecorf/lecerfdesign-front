@@ -1,18 +1,18 @@
 FROM node:latest
 
-# Définition du répertoire de travail dans le conteneur
+# Définir le répertoire de travail dans le conteneur
 WORKDIR /app
 
-# Copie des fichiers de dépendances
+# Copier les fichiers de dépendances
 COPY package.json package-lock.json ./
 
-# Installation des dépendances
+# Installer les dépendances
 RUN npm install
 
-# Copie du reste des fichiers de l'application
+# Copier le reste des fichiers de l'application
 COPY . .
 
-# Construction de l'application Next.js
+# Construire l'application Next.js
 RUN npm run build
 
 # Commande pour démarrer l'application
