@@ -6,6 +6,8 @@ import { SlArrowRight, SlArrowLeft } from 'react-icons/sl';
 
 const SkillCarrousselle: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState<number>(0);
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [touchEnd, setTouchEnd] = useState<number | null>(null);
 
   const items = [
     [
@@ -77,8 +79,36 @@ const SkillCarrousselle: React.FC = () => {
 
   const startIndex = currentSlide % totalSlides;
 
+  const handleTouchStart = (e: React.TouchEvent): void => {
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent): void => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchEnd = (): void => {
+    if (!touchStart || !touchEnd) return;
+
+    const swipeDistance = touchStart - touchEnd;
+
+    if (swipeDistance > 50) {
+      nextSlide();
+    } else if (swipeDistance < -50) {
+      prevSlide();
+    }
+
+    setTouchStart(null);
+    setTouchEnd(null);
+  };
+
   return (
-    <div className="carousel">
+    <div
+      className="carousel"
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+    >
       <div className="slider">
         <button onClick={prevSlide} className="prevButton">
           <SlArrowLeft />
