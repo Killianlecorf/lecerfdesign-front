@@ -12,6 +12,8 @@ const Creations = () => {
             <title>Lecerf design | Créations</title>
             <meta name="description" content="Retrouver tout les design " />
             <meta name="keywords" content="lecerf, design, Rouen" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="robots" content="index, follow" />
         </Head>
             <Header currentPath="/creations"/>
             <CreationPageVideo />
