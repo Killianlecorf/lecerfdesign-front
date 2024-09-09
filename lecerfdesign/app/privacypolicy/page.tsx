@@ -2,10 +2,16 @@ import Footer from '@/Components/Footer/Footer';
 import Header from '@/Components/Header/Header';
 import React from 'react';
 import '../../src/style/Pages/privacypolicy/_page.scss'
+import Head from 'next/head';
 
 const privacyPolice = () => {
     return (
         <div className='privacyPolice'>
+            <Head>
+                <title>Lecerf design | Politique de confidentialité</title>
+                <meta name="description" content="Description optimisée pour le SEO de votre page." />
+                <meta name="keywords" content="Next.js, SEO, Référencement" />
+            </Head>
             <Header/>
                 <div className="titlePrivacyPolice">
                     <h1>Politique de confidentialité</h1>

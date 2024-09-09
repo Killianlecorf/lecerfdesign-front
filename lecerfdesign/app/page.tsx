@@ -7,13 +7,18 @@ import Video from "../public/Assets/Img/montage_video_vert.svg";
 import Photo from "../public/Assets/Img/photo_video_vert.svg";
 import Design from "../public/Assets/Img/design_web_vert.svg";
 import SkillCarrousselle from "@/Components/SkillCarrouselle/SkillCarrousselle";
-// import BismoulienHomeContent from "@/Components/BismoulienHomeContent/BismoulienHomeContent";
 import Footer from "@/Components/Footer/Footer";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Page() {
   return (
     <main className="Home">
+        <Head>
+            <title>Lecerf design | Accueil</title>
+            <meta name="description" content="Description optimisée pour le SEO de votre page." />
+            <meta name="keywords" content="Next.js, SEO, Référencement" />
+        </Head>
         <Header/>
         <div className="backgroundImage">
             <div className="titleContentHome">

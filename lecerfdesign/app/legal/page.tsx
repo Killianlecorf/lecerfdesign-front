@@ -2,6 +2,7 @@ import Footer from '@/Components/Footer/Footer';
 import Header from '@/Components/Header/Header';
 import React from 'react';
 import '../../src/style/Pages/legal/_page.scss';
+import Head from 'next/head';
 
 const legal = () => {
 
@@ -12,6 +13,11 @@ const legal = () => {
 
     return (
         <div className="legal">
+            <Head>
+                <title>Lecerf design | Mentions légales</title>
+                <meta name="description" content="Description optimisée pour le SEO de votre page." />
+                <meta name="keywords" content="Next.js, SEO, Référencement" />
+            </Head>
             <Header/>
             <div className="titleLegal">
                 <h1>Mentions légales</h1>
