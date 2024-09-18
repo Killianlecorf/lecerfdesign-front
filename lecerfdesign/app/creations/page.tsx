@@ -1,13 +1,20 @@
 import Footer from '@/Components/Footer/Footer';
 import Header from '@/Components/Header/Header';
-import React from 'react';
 import CreationPageVideo from "@/Components/CreationPageVideo/CreationPageVideo";
 import CreationBismoulien from '@/Components/CreationBismoulien/CreationBismoulien';
 import CardImage from '@/Components/CardImage/CardImage';
+import Head from 'next/head';
 
 const Creations = () => {
     return (
         <div>
+        <Head>
+            <title>Lecerf design | Créations</title>
+            <meta name="description" content="Retrouver tout les design " />
+            <meta name="keywords" content="lecerf, design, Rouen" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="robots" content="index, follow" />
+        </Head>
             <Header currentPath="/creations"/>
             <CreationPageVideo />
             <div className="banniereCreation">
