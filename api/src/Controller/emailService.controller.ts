@@ -13,6 +13,6 @@ export const sendMail = async (req: Request, res: Response) => {
     res.status(200).json({ message: 'E-mail envoyé avec succès' });
   } catch (error: any) {
     console.error('Erreur lors de l\'envoi de l\'e-mail :', error);
-    res.status(400).json({ error: error.message });
+    res.status(500).json({ error: error.message });
   }
 };

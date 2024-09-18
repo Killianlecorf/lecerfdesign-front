@@ -2,10 +2,18 @@ import Footer from '@/Components/Footer/Footer';
 import Header from '@/Components/Header/Header';
 import React from 'react';
 import '../../src/style/Pages/privacypolicy/_page.scss'
+import Head from 'next/head';
 
 const privacyPolice = () => {
     return (
         <div className='privacyPolice'>
+            <Head>
+                <title>Lecerf design | Politique de confidentialité</title>
+                <meta name="description" content="Donnez vie à votre vision, avec des solutions graphiques sur mesure !" />
+                <meta name="keywords" content="Design, Rouen, lecerf" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="robots" content="index, follow" />
+            </Head>
             <Header/>
                 <div className="titlePrivacyPolice">
                     <h1>Politique de confidentialité</h1>

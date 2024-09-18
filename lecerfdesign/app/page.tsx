@@ -7,13 +7,20 @@ import Video from "../public/Assets/Img/montage_video_vert.svg";
 import Photo from "../public/Assets/Img/photo_video_vert.svg";
 import Design from "../public/Assets/Img/design_web_vert.svg";
 import SkillCarrousselle from "@/Components/SkillCarrouselle/SkillCarrousselle";
-// import BismoulienHomeContent from "@/Components/BismoulienHomeContent/BismoulienHomeContent";
 import Footer from "@/Components/Footer/Footer";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Page() {
   return (
     <main className="Home">
+        <Head>
+            <title>Lecerf design | Accueil</title>
+            <meta name="description" content="Donnez vie à votre vision, avec des solutions graphiques sur mesure !" />
+            <meta name="keywords" content="Design, Rouen, lecerf" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="robots" content="index, follow" />
+        </Head>
         <Header/>
         <div className="backgroundImage">
             <div className="titleContentHome">
