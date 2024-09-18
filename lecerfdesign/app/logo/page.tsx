@@ -10,8 +10,8 @@ const logo = () => {
         <div className='logoPage'>
             <Head>
                 <title>Lecerf design | Logo</title>
-                <meta name="description" content="Description optimisée pour le SEO de votre page." />
-                <meta name="keywords" content="Next.js, SEO, Référencement" />
+                <meta name="description" content="Donnez vie à votre vision, avec des solutions graphiques sur mesure !" />
+                <meta name="keywords" content="Design, Rouen, lecerf" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="robots" content="index, follow" />
             </Head>
