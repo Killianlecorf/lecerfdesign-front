@@ -9,7 +9,7 @@ export default function Contact() {
     return (
         <main className="contact">
             <Head>
-                <title>Lecerf design | Créations</title>
+                <title>Lecerf design | Contact</title>
                 <meta name="description" content="Donnez vie à votre vision, avec des solutions graphiques sur mesure !" />
                 <meta name="keywords" content="Design, Rouen, lecerf" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
